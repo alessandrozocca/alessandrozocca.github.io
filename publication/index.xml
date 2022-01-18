@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Publications | Academic</title>
+    <title>Publications | Alessandro Zocca</title>
     <link>https://github.com/alessandrozocca/alessandrozocca.github.io/publication/</link>
       <atom:link href="https://github.com/alessandrozocca/alessandrozocca.github.io/publication/index.xml" rel="self" type="application/rss+xml" />
     <description>Publications</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 01 Jul 2013 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2022 Alessandro Zocca</copyright><lastBuildDate>Sat, 02 Oct 2021 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://github.com/alessandrozocca/alessandrozocca.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
       <title>Publications</title>
@@ -13,22 +13,327 @@
     </image>
     
     <item>
-      <title>An example conference paper</title>
-      <link>https://github.com/alessandrozocca/alessandrozocca.github.io/publication/example/</link>
-      <pubDate>Mon, 01 Jul 2013 00:00:00 +0000</pubDate>
-      <guid>https://github.com/alessandrozocca/alessandrozocca.github.io/publication/example/</guid>
-      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
-  &lt;div&gt;
-    Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
-  &lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;alert alert-note&#34;&gt;
-  &lt;div&gt;
-    Create your slides in Markdown - click the &lt;em&gt;Slides&lt;/em&gt; button to check out the example.
-  &lt;/div&gt;
-&lt;/div&gt;
-&lt;p&gt;Supplementary notes can be added here, including &lt;a href=&#34;https://wowchemy.com/docs/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;code, math, and images&lt;/a&gt;.&lt;/p&gt;
+      <title>An MILP-based approach to tree partitioning with minimal power flow disruption and generator coherency constraints</title>
+      <link>https://github.com/alessandrozocca/alessandrozocca.github.io/publication/lan2021b/</link>
+      <pubDate>Sat, 02 Oct 2021 00:00:00 +0000</pubDate>
+      <guid>https://github.com/alessandrozocca/alessandrozocca.github.io/publication/lan2021b/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Refining bridge-block decompositions through two-stage and recursive tree partitioning</title>
+      <link>https://github.com/alessandrozocca/alessandrozocca.github.io/publication/lan2021a/</link>
+      <pubDate>Fri, 01 Oct 2021 00:00:00 +0000</pubDate>
+      <guid>https://github.com/alessandrozocca/alessandrozocca.github.io/publication/lan2021a/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A Metropolis-class sampler for targets with non-convex support</title>
+      <link>https://github.com/alessandrozocca/alessandrozocca.github.io/publication/moriarty2021/</link>
+      <pubDate>Wed, 15 Sep 2021 00:00:00 +0000</pubDate>
+      <guid>https://github.com/alessandrozocca/alessandrozocca.github.io/publication/moriarty2021/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Hopping between distant basins</title>
+      <link>https://github.com/alessandrozocca/alessandrozocca.github.io/publication/goodridge2021/</link>
+      <pubDate>Sun, 01 Aug 2021 00:00:00 +0000</pubDate>
+      <guid>https://github.com/alessandrozocca/alessandrozocca.github.io/publication/goodridge2021/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A Spectral Representation of Power Systems with Applications to Adaptive Grid Partitioning and Cascading Failure Localization</title>
+      <link>https://github.com/alessandrozocca/alessandrozocca.github.io/publication/zocca2021b/</link>
+      <pubDate>Sat, 01 May 2021 00:00:00 +0000</pubDate>
+      <guid>https://github.com/alessandrozocca/alessandrozocca.github.io/publication/zocca2021b/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Line Failure Localization of Power Networks. Part II: Cut Set Outages</title>
+      <link>https://github.com/alessandrozocca/alessandrozocca.github.io/publication/guo2021b/</link>
+      <pubDate>Fri, 19 Mar 2021 00:00:00 +0000</pubDate>
+      <guid>https://github.com/alessandrozocca/alessandrozocca.github.io/publication/guo2021b/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Line Failure Localization of Power Networks. Part I: Non-cut outages</title>
+      <link>https://github.com/alessandrozocca/alessandrozocca.github.io/publication/guo2021a/</link>
+      <pubDate>Thu, 18 Mar 2021 00:00:00 +0000</pubDate>
+      <guid>https://github.com/alessandrozocca/alessandrozocca.github.io/publication/guo2021a/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>An Integrated Approach for Failure Mitigation &amp; Localization in Power Systems</title>
+      <link>https://github.com/alessandrozocca/alessandrozocca.github.io/publication/chen2020a/</link>
+      <pubDate>Tue, 02 Feb 2021 00:00:00 +0000</pubDate>
+      <guid>https://github.com/alessandrozocca/alessandrozocca.github.io/publication/chen2020a/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Optimization of stochastic lossy transport networks and applications to power grids</title>
+      <link>https://github.com/alessandrozocca/alessandrozocca.github.io/publication/zocca2020/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>https://github.com/alessandrozocca/alessandrozocca.github.io/publication/zocca2020/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Mitigating Cascading Failures via Local Responses</title>
+      <link>https://github.com/alessandrozocca/alessandrozocca.github.io/publication/chen2020b/</link>
+      <pubDate>Fri, 16 Oct 2020 00:00:00 +0000</pubDate>
+      <guid>https://github.com/alessandrozocca/alessandrozocca.github.io/publication/chen2020b/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Large fluctuations in locational marginal prices</title>
+      <link>https://github.com/alessandrozocca/alessandrozocca.github.io/publication/nesti2020/</link>
+      <pubDate>Wed, 26 Feb 2020 00:00:00 +0000</pubDate>
+      <guid>https://github.com/alessandrozocca/alessandrozocca.github.io/publication/nesti2020/</guid>
+      <description>&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;ising.jpg&#34; alt=&#34;image&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
 </description>
+    </item>
+    
+    <item>
+      <title>Weighted Dyck paths for nonstationary queues</title>
+      <link>https://github.com/alessandrozocca/alessandrozocca.github.io/publication/bet2020/</link>
+      <pubDate>Sun, 09 Feb 2020 00:00:00 +0000</pubDate>
+      <guid>https://github.com/alessandrozocca/alessandrozocca.github.io/publication/bet2020/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Less is More: Real-time Failure Localization in Power Systems</title>
+      <link>https://github.com/alessandrozocca/alessandrozocca.github.io/publication/guo2019/</link>
+      <pubDate>Fri, 13 Dec 2019 00:00:00 +0000</pubDate>
+      <guid>https://github.com/alessandrozocca/alessandrozocca.github.io/publication/guo2019/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Tunneling behavior of Ising and Potts models in the low-temperature regime</title>
+      <link>https://github.com/alessandrozocca/alessandrozocca.github.io/publication/nardi2019/</link>
+      <pubDate>Fri, 01 Nov 2019 00:00:00 +0000</pubDate>
+      <guid>https://github.com/alessandrozocca/alessandrozocca.github.io/publication/nardi2019/</guid>
+      <description>&lt;h1 id=&#34;configurationimgisingjpg-configuration&#34;&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-configuration&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;../img/ising.jpg&#34; alt=&#34;configuration&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      Configuration
+    &lt;/figcaption&gt;&lt;/figure&gt;
+&lt;/h1&gt;
+&lt;h1 id=&#34;configurationimgisingjpg&#34;&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://github.com/alessandrozocca/alessandrozocca.github.io/img/ising.jpg&#34; alt=&#34;configuration&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/h1&gt;
+&lt;h1 id=&#34;isingimgisingjpg&#34;&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://github.com/alessandrozocca/alessandrozocca.github.io/img/ising.jpg&#34; alt=&#34;ising&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/h1&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Tunneling of the hard-core model on finite triangular lattices</title>
+      <link>https://github.com/alessandrozocca/alessandrozocca.github.io/publication/zocca2019/</link>
+      <pubDate>Sat, 01 Jun 2019 00:00:00 +0000</pubDate>
+      <guid>https://github.com/alessandrozocca/alessandrozocca.github.io/publication/zocca2019/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Temporal starvation in multi-channel CSMA networks: An analytical framework</title>
+      <link>https://github.com/alessandrozocca/alessandrozocca.github.io/publication/zocca2019b/</link>
+      <pubDate>Sat, 19 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>https://github.com/alessandrozocca/alessandrozocca.github.io/publication/zocca2019b/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Frequency violations from random disturbances: an MCMC approach</title>
+      <link>https://github.com/alessandrozocca/alessandrozocca.github.io/publication/moriarty2018/</link>
+      <pubDate>Mon, 17 Dec 2018 00:00:00 +0000</pubDate>
+      <guid>https://github.com/alessandrozocca/alessandrozocca.github.io/publication/moriarty2018/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Failure Localization in Power Systems via Tree Partitions</title>
+      <link>https://github.com/alessandrozocca/alessandrozocca.github.io/publication/guo2018/</link>
+      <pubDate>Sun, 16 Dec 2018 00:00:00 +0000</pubDate>
+      <guid>https://github.com/alessandrozocca/alessandrozocca.github.io/publication/guo2018/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Emergent failures and cascades in power grids: A statistical physics perspective</title>
+      <link>https://github.com/alessandrozocca/alessandrozocca.github.io/publication/nesti2018/</link>
+      <pubDate>Thu, 21 Jun 2018 00:00:00 +0000</pubDate>
+      <guid>https://github.com/alessandrozocca/alessandrozocca.github.io/publication/nesti2018/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Related news items&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://physics.aps.org/articles/v11/s72&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;How Correlated Weather Fluctuations Take Down Power Grids (APS Synopsis)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.cwi.nl/news/2018/cwi-researchers-make-power-grid-more-reliable-with-mathematics&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CWI Researchers Make Power Grids More Reliable With Mathematics (CWI release)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.caltech.edu/about/news/new-model-shows-where-improve-power-grids-82606&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;New Model Shows Where to Improve Power Grids (Resnick press release)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Low-temperature behavior of the multicomponent Widom–Rowlison model on finite square lattices</title>
+      <link>https://github.com/alessandrozocca/alessandrozocca.github.io/publication/zocca2018b/</link>
+      <pubDate>Sun, 01 Apr 2018 00:00:00 +0000</pubDate>
+      <guid>https://github.com/alessandrozocca/alessandrozocca.github.io/publication/zocca2018b/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Line failure probability bounds for power grids</title>
+      <link>https://github.com/alessandrozocca/alessandrozocca.github.io/publication/nesti2017/</link>
+      <pubDate>Sat, 01 Jul 2017 00:00:00 +0000</pubDate>
+      <guid>https://github.com/alessandrozocca/alessandrozocca.github.io/publication/nesti2017/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Minimizing heat loss in DC networks using batteries</title>
+      <link>https://github.com/alessandrozocca/alessandrozocca.github.io/publication/zocca2016/</link>
+      <pubDate>Thu, 01 Sep 2016 00:00:00 +0000</pubDate>
+      <guid>https://github.com/alessandrozocca/alessandrozocca.github.io/publication/zocca2016/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>On the Interactions Between Multiple Overlapping WLANs Using Channel Bonding</title>
+      <link>https://github.com/alessandrozocca/alessandrozocca.github.io/publication/bellalta2016/</link>
+      <pubDate>Mon, 01 Feb 2016 00:00:00 +0000</pubDate>
+      <guid>https://github.com/alessandrozocca/alessandrozocca.github.io/publication/bellalta2016/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Hitting Time Asymptotics for Hard-Core Interactions on Grids</title>
+      <link>https://github.com/alessandrozocca/alessandrozocca.github.io/publication/nardi2016/</link>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+      <guid>https://github.com/alessandrozocca/alessandrozocca.github.io/publication/nardi2016/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Spatio-temporal dynamics of random-access networks: An interacting particle approach (PhD thesis)</title>
+      <link>https://github.com/alessandrozocca/alessandrozocca.github.io/publication/zocca2015/</link>
+      <pubDate>Thu, 17 Dec 2015 00:00:00 +0000</pubDate>
+      <guid>https://github.com/alessandrozocca/alessandrozocca.github.io/publication/zocca2015/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Slow Transitions and Starvation in Dense Random-Access Networks</title>
+      <link>https://github.com/alessandrozocca/alessandrozocca.github.io/publication/zocca2015b/</link>
+      <pubDate>Mon, 22 Jun 2015 00:00:00 +0000</pubDate>
+      <guid>https://github.com/alessandrozocca/alessandrozocca.github.io/publication/zocca2015b/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Throughput analysis in CSMA/CA networks using continuous time Markov networks: A tutorial</title>
+      <link>https://github.com/alessandrozocca/alessandrozocca.github.io/publication/bellalta2014/</link>
+      <pubDate>Fri, 01 Aug 2014 00:00:00 +0000</pubDate>
+      <guid>https://github.com/alessandrozocca/alessandrozocca.github.io/publication/bellalta2014/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Delay performance in random-access grid networks</title>
+      <link>https://github.com/alessandrozocca/alessandrozocca.github.io/publication/zocca2013/</link>
+      <pubDate>Tue, 01 Oct 2013 00:00:00 +0000</pubDate>
+      <guid>https://github.com/alessandrozocca/alessandrozocca.github.io/publication/zocca2013/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Mixing properties of CSMA networks on partite graphs</title>
+      <link>https://github.com/alessandrozocca/alessandrozocca.github.io/publication/zocca2012/</link>
+      <pubDate>Sat, 01 Sep 2012 00:00:00 +0000</pubDate>
+      <guid>https://github.com/alessandrozocca/alessandrozocca.github.io/publication/zocca2012/</guid>
+      <description></description>
     </item>
     
   </channel>

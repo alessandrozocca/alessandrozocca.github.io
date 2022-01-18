@@ -1,0 +1,2927 @@
+<!DOCTYPE html><html lang="en-us" >
+
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  
+  
+  
+    <meta name="generator" content="Wowchemy 5.4.0 for Hugo" />
+  
+
+  
+  
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+  
+  
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  
+
+  
+  
+  
+    
+      
+      <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Lato:ital@0;1&family=Raleway:ital,wght@0,500;1,500&family=Roboto+Mono:wght@100&display=swap">
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lato:ital@0;1&family=Raleway:ital,wght@0,500;1,500&family=Roboto+Mono:wght@100&display=swap" media="print" onload="this.media='all'">
+    
+  
+
+  
+  
+  
+  
+  
+    
+    
+    
+  
+  
+
+  
+
+  
+  
+  
+    
+  
+  <meta name="description" content="Understanding the fundamental interplay between network topology and failure propagation in power systems using graph theory and spectral methods" />
+
+  
+  <link rel="alternate" hreflang="en-us" href="https://github.com/alessandrozocca/alessandrozocca.github.io/project/algorithms-and-optimization-for-power-systems-reliability/" />
+
+  
+  
+  
+    <meta name="theme-color" content="#E33E1D" />
+  
+
+  
+  
+    
+    <script src="/alessandrozocca/alessandrozocca.github.io/js/mathjax-config.js"></script>
+  
+
+  
+
+  <link rel="stylesheet" href="/alessandrozocca/alessandrozocca.github.io/css/vendor-bundle.min.f1ecf783c14edc00c9320c205831ad8e.css" media="print" onload="this.media='all'">
+
+  
+  
+  
+    
+    
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/academicons@1.9.1/css/academicons.min.css" integrity="sha512-W0xM4mr6dEP9nREo7Z9z+9X70wytKvMGeDsj7ps2+xg5QPrEBXC8tAW1IFnzjR6eoJ90JmCnFzerQJTLzIEHjA==" crossorigin="anonymous" media="print" onload="this.media='all'">
+    
+
+    
+    
+    
+    
+      
+      
+    
+    
+    
+
+    
+    
+    
+      
+    
+    
+      
+      
+        
+          <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.2.1/build/styles/github.min.css" crossorigin="anonymous" title="hl-light" media="print" onload="this.media='all'">
+          <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.2.1/build/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark" media="print" onload="this.media='all'" disabled>
+        
+      
+    
+
+    
+    
+    
+
+    
+
+    
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js" integrity="" crossorigin="anonymous" async></script>
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+  
+
+  
+  
+  
+  
+  
+  <link rel="stylesheet" href="/alessandrozocca/alessandrozocca.github.io/css/wowchemy.20960fd8cdc111b2f8496740dcfc2ce9.css" />
+
+  
+
+
+
+  
+
+  
+
+  
+
+
+
+
+  
+  
+  
+
+  
+
+  
+    <link rel="manifest" href="/alessandrozocca/alessandrozocca.github.io/manifest.webmanifest" />
+  
+
+  <link rel="icon" type="image/png" href="/alessandrozocca/alessandrozocca.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_32x32_fill_lanczos_center_3.png" />
+  <link rel="apple-touch-icon" type="image/png" href="/alessandrozocca/alessandrozocca.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_180x180_fill_lanczos_center_3.png" />
+
+  <link rel="canonical" href="https://github.com/alessandrozocca/alessandrozocca.github.io/project/algorithms-and-optimization-for-power-systems-reliability/" />
+
+  
+  
+  
+  
+  
+  
+  
+  
+    
+  
+  
+
+  
+  
+    
+    
+  
+  <meta property="twitter:card" content="summary_large_image" />
+  
+  <meta property="og:site_name" content="Alessandro Zocca" />
+  <meta property="og:url" content="https://github.com/alessandrozocca/alessandrozocca.github.io/project/algorithms-and-optimization-for-power-systems-reliability/" />
+  <meta property="og:title" content="Algorithms and optimization for power systems reliability | Alessandro Zocca" />
+  <meta property="og:description" content="Understanding the fundamental interplay between network topology and failure propagation in power systems using graph theory and spectral methods" /><meta property="og:image" content="https://github.com/alessandrozocca/alessandrozocca.github.io/project/algorithms-and-optimization-for-power-systems-reliability/featured.png" />
+    <meta property="twitter:image" content="https://github.com/alessandrozocca/alessandrozocca.github.io/project/algorithms-and-optimization-for-power-systems-reliability/featured.png" /><meta property="og:locale" content="en-us" />
+  
+    
+    
+  
+
+  
+
+
+    
+
+
+
+
+
+
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://github.com/alessandrozocca/alessandrozocca.github.io/project/algorithms-and-optimization-for-power-systems-reliability/"
+  },
+  "headline": "Algorithms and optimization for power systems reliability",
+  
+  "image": [
+    "https://github.com/alessandrozocca/alessandrozocca.github.io/project/algorithms-and-optimization-for-power-systems-reliability/featured.png"
+  ],
+  
+  "datePublished": "0001-01-01T00:00:00Z",
+  "dateModified": "0001-01-01T00:00:00Z",
+  
+  "publisher": {
+    "@type": "Organization",
+    "name": "Vrije Universiteit Amsterdam",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://github.com/alessandrozocca/alessandrozocca.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_192x192_fill_lanczos_center_3.png"
+    }
+  },
+  "description": "Understanding the fundamental interplay between network topology and failure propagation in power systems using graph theory and spectral methods"
+}
+</script>
+
+  
+
+  
+
+  
+
+  
+
+
+
+
+
+  <title>Algorithms and optimization for power systems reliability | Alessandro Zocca</title>
+</head>
+
+
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class="page-wrapper   " data-wc-page-id="f953bc541cb72747043445f3accf1c27" >
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <script src="/alessandrozocca/alessandrozocca.github.io/js/wowchemy-init.min.133800c88f3b5bb934932231fd94fed7.js"></script>
+
+  
+
+
+
+
+  <div class="page-header">
+    
+
+
+
+
+
+
+
+
+
+
+
+
+<header class="header--fixed">
+  <nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id="navbar-main">
+    <div class="container-xl">
+
+      
+      <div class="d-none d-lg-inline-flex">
+        <a class="navbar-brand" href="/alessandrozocca/alessandrozocca.github.io/">Alessandro Zocca</a>
+      </div>
+      
+
+      
+      <button type="button" class="navbar-toggler" data-toggle="collapse"
+              data-target="#navbar-content" aria-controls="navbar-content" aria-expanded="false" aria-label="Toggle navigation">
+      <span><i class="fas fa-bars"></i></span>
+      </button>
+      
+
+      
+      <div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none">
+        <a class="navbar-brand" href="/alessandrozocca/alessandrozocca.github.io/">Alessandro Zocca</a>
+      </div>
+      
+
+      
+      
+      <div class="navbar-collapse main-menu-item collapse justify-content-start" id="navbar-content">
+
+        
+        <ul class="navbar-nav d-md-inline-flex">
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/alessandrozocca/alessandrozocca.github.io/#about"><span>Home</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/alessandrozocca/alessandrozocca.github.io/#projects"><span>Research</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/alessandrozocca/alessandrozocca.github.io/#publications"><span>Publications</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/alessandrozocca/alessandrozocca.github.io/#experience"><span>CV</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/alessandrozocca/alessandrozocca.github.io/#contact"><span>Contact</span></a>
+          </li>
+
+          
+          
+
+        
+
+          
+        </ul>
+      </div>
+
+      <ul class="nav-icons navbar-nav flex-row ml-auto d-flex pl-md-2">
+
+        
+        
+          
+        
+
+        
+        
+
+        
+        
+
+        
+        
+
+      </ul>
+
+    </div>
+  </nav>
+</header>
+
+
+  </div>
+
+  <div class="page-body">
+    <article class="article article-project">
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+  
+  
+<div class="article-container pt-3">
+  <h1>Algorithms and optimization for power systems reliability</h1>
+
+  
+
+  
+    
+
+
+<div class="article-metadata">
+
+  
+  
+
+  
+
+  
+
+  
+
+</div>
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+</div>
+
+
+
+  <div class="article-container">
+
+    <div class="article-style">
+      <p>Understanding the fundamental interplay between network topology and failure propagation in power systems using graph theory and spectral methods.</p>
+<p>See below for the list of related publications and preprints.</p>
+
+    </div>
+
+    
+
+
+
+
+
+
+<div class="article-tags">
+  
+  <a class="badge badge-light" href="/alessandrozocca/alessandrozocca.github.io/tag/control/">Control</a>
+  
+  <a class="badge badge-light" href="/alessandrozocca/alessandrozocca.github.io/tag/graph-theory/">Graph Theory</a>
+  
+  <a class="badge badge-light" href="/alessandrozocca/alessandrozocca.github.io/tag/power-systems-reliability/">Power systems reliability</a>
+  
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+  
+  
+  
+    
+  
+  
+  
+  <div class="media author-card content-widget-hr">
+    
+      
+      <a href="https://github.com/alessandrozocca/alessandrozocca.github.io"><img class="avatar mr-3 avatar-circle" src="/alessandrozocca/alessandrozocca.github.io/authors/admin/avatar_hu25d333fcded103db2f52f7476cb1420a_627796_270x270_fill_q75_lanczos_center.jpg" alt=""></a>
+    
+
+    <div class="media-body">
+      <h5 class="card-title"><a href="https://github.com/alessandrozocca/alessandrozocca.github.io"></a></h5>
+      <h6 class="card-subtitle">Assistant Professor of Applied Probability and Operations Research</h6>
+      
+      <ul class="network-icon" aria-hidden="true">
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+    <li>
+      <a href="mailto:a.zocca@vu.nl" >
+        <i class="fas fa-envelope"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://scholar.google.com/citations?user=9B49xi0AAAAJ" target="_blank" rel="noopener">
+        <i class="ai ai-google-scholar"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://github.com/alessandrozocca" target="_blank" rel="noopener">
+        <i class="fab fa-github"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://orcid.org/0000-0001-6585-4785" target="_blank" rel="noopener">
+        <i class="fab fa-orcid"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="/alessandrozocca/alessandrozocca.github.io/files/cv_zocca.pdf" >
+        <i class="ai ai-cv"></i>
+      </a>
+    </li>
+  
+</ul>
+
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  <div class="article-widget content-widget-hr">
+    <h3>Related</h3>
+    <ul>
+      
+      <li><a href="/alessandrozocca/alessandrozocca.github.io/project/learning-in-power-networks/">Learning in power networks</a></li>
+      
+      <li><a href="/alessandrozocca/alessandrozocca.github.io/project/asymptotic-behavior-of-interacting-particle-systems/">Asymptotic behavior of interacting particle systems</a></li>
+      
+      <li><a href="/alessandrozocca/alessandrozocca.github.io/project/random-access-networks/">Random-access networks</a></li>
+      
+    </ul>
+  </div>
+  
+
+
+
+
+
+    <div class="project-related-pages content-widget-hr">
+      
+      
+
+      
+      
+      
+
+      
+      
+      
+        <h2>Publications</h2>
+        
+          
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+<div class="media stream-item">
+  <div class="media-body">
+
+    <div class="article-title mb-0 mt-0">
+      <a href="/alessandrozocca/alessandrozocca.github.io/publication/lan2021b/" >An MILP-based approach to tree partitioning with minimal power flow disruption and generator coherency constraints</a> (2021)
+    </div>
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+      <div>
+        
+
+  
+  <span>L. Lan</span>, <span><strong style="color:black">A. Zocca</strong></span>
+        <span class="middot-divider"></span>
+        <span style="color:gray"> <em>Submitted to PSCC 2022</em> </span>
+      </div>
+      
+    </div>
+
+    
+    <a href="/alessandrozocca/alessandrozocca.github.io/publication/lan2021b/"  class="summary-link">
+      <div class="article-style">
+        How to optimally tree-partition power systems as alternative to intentional controlled islanding?
+      </div>
+    </a>
+    
+
+    
+
+    
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+  
+  
+  
+    
+  
+  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://arxiv.org/abs/2110.07000" target="_blank" rel="noopener">
+    <i class="ai ai-arxiv mr-1"></i>
+    arXiv preprint
+  </a>
+
+  
+  
+  
+  
+  
+  
+  
+    
+    
+      
+    
+  
+  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/alessandrozocca/alessandrozocca.github.io/papers/lan2021b.pdf" >
+    <i class="ai ai-open-access mr-1"></i>
+    PDF
+  </a>
+
+  
+  
+  
+  
+  
+  
+  
+    
+    
+      
+    
+  
+  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/alessandrozocca/alessandrozocca.github.io/papers/lan2021b.bib" >
+    <i class="ai ai-semantic-scholar mr-1"></i>
+    bib
+  </a>
+
+
+    </div>
+    
+    <br>
+
+  </div>
+  <div class="ml-3">
+    
+    
+    
+    <a href="/alessandrozocca/alessandrozocca.github.io/publication/lan2021b/" >
+      <img src="/alessandrozocca/alessandrozocca.github.io/publication/lan2021b/featured_hu42178ae6f9f1d3183ab30b12e12a9506_1779092_150x0_resize_q75_h2_lanczos_3.webp" height="108" width="150"
+           alt="An MILP-based approach to tree partitioning with minimal power flow disruption and generator coherency constraints" loading="lazy">
+    </a>
+    
+  </div>
+</div>
+
+        
+          
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+<div class="media stream-item">
+  <div class="media-body">
+
+    <div class="article-title mb-0 mt-0">
+      <a href="/alessandrozocca/alessandrozocca.github.io/publication/lan2021a/" >Refining bridge-block decompositions through two-stage and recursive tree partitioning</a> (2021)
+    </div>
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+      <div>
+        
+
+  
+  <span>L. Lan</span>, <span><strong style="color:black">A. Zocca</strong></span>
+        <span class="middot-divider"></span>
+        <span style="color:gray"> <em>Submitted to PSCC 2022</em> </span>
+      </div>
+      
+    </div>
+
+    
+    <a href="/alessandrozocca/alessandrozocca.github.io/publication/lan2021a/"  class="summary-link">
+      <div class="article-style">
+        How to make power systems more robust modifying their topology?
+      </div>
+    </a>
+    
+
+    
+
+    
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+  
+  
+  
+    
+  
+  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://arxiv.org/abs/2110.06998" target="_blank" rel="noopener">
+    <i class="ai ai-arxiv mr-1"></i>
+    arXiv preprint
+  </a>
+
+  
+  
+  
+  
+  
+  
+  
+    
+    
+      
+    
+  
+  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/alessandrozocca/alessandrozocca.github.io/papers/lan2021a.pdf" >
+    <i class="ai ai-open-access mr-1"></i>
+    PDF
+  </a>
+
+  
+  
+  
+  
+  
+  
+  
+    
+    
+      
+    
+  
+  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/alessandrozocca/alessandrozocca.github.io/papers/lan2021a.bib" >
+    <i class="ai ai-semantic-scholar mr-1"></i>
+    bib
+  </a>
+
+
+    </div>
+    
+    <br>
+
+  </div>
+  <div class="ml-3">
+    
+    
+    
+    <a href="/alessandrozocca/alessandrozocca.github.io/publication/lan2021a/" >
+      <img src="/alessandrozocca/alessandrozocca.github.io/publication/lan2021a/featured_hu6a9f6be9585a21194d2e2f0ab4cdc660_2785223_150x0_resize_q75_h2_lanczos_3.webp" height="74" width="150"
+           alt="Refining bridge-block decompositions through two-stage and recursive tree partitioning" loading="lazy">
+    </a>
+    
+  </div>
+</div>
+
+        
+          
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+<div class="media stream-item">
+  <div class="media-body">
+
+    <div class="article-title mb-0 mt-0">
+      <a href="/alessandrozocca/alessandrozocca.github.io/publication/zocca2021b/" >A Spectral Representation of Power Systems with Applications to Adaptive Grid Partitioning and Cascading Failure Localization</a> (2021)
+    </div>
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+      <div>
+        
+
+  
+  <span><strong style="color:black">A. Zocca</strong></span>, <span>L. Chen</span>, <span>L. Guo</span>, <span>S.H. Low</span>, <span>A. Wierman</span>
+        <span class="middot-divider"></span>
+        <span style="color:gray"> <em>Submitted</em> </span>
+      </div>
+      
+    </div>
+
+    
+    <a href="/alessandrozocca/alessandrozocca.github.io/publication/zocca2021b/"  class="summary-link">
+      <div class="article-style">
+        How to use spectral graph theory to improve power networks robustness against cascading failures?
+      </div>
+    </a>
+    
+
+    
+
+    
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+  
+  
+  
+    
+  
+  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://arxiv.org/abs/2105.05234" target="_blank" rel="noopener">
+    <i class="ai ai-arxiv mr-1"></i>
+    arXiv preprint
+  </a>
+
+  
+  
+  
+  
+  
+  
+  
+    
+    
+      
+    
+  
+  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/alessandrozocca/alessandrozocca.github.io/papers/zocca2021b.pdf" >
+    <i class="ai ai-open-access mr-1"></i>
+    PDF
+  </a>
+
+  
+  
+  
+  
+  
+  
+  
+    
+    
+      
+    
+  
+  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/alessandrozocca/alessandrozocca.github.io/papers/zocca2021b.bib" >
+    <i class="ai ai-semantic-scholar mr-1"></i>
+    bib
+  </a>
+
+
+    </div>
+    
+    <br>
+
+  </div>
+  <div class="ml-3">
+    
+    
+    
+    <a href="/alessandrozocca/alessandrozocca.github.io/publication/zocca2021b/" >
+      <img src="/alessandrozocca/alessandrozocca.github.io/publication/zocca2021b/featured_hue106071bfb3d636e9232be67f97d2892_3304418_150x0_resize_q75_h2_lanczos_3.webp" height="87" width="150"
+           alt="A Spectral Representation of Power Systems with Applications to Adaptive Grid Partitioning and Cascading Failure Localization" loading="lazy">
+    </a>
+    
+  </div>
+</div>
+
+        
+          
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+<div class="media stream-item">
+  <div class="media-body">
+
+    <div class="article-title mb-0 mt-0">
+      <a href="/alessandrozocca/alessandrozocca.github.io/publication/guo2021b/" >Line Failure Localization of Power Networks. Part II: Cut Set Outages</a> (2021)
+    </div>
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+      <div>
+        
+
+  
+  <span>L. Guo</span>, <span>L. Chen</span>, <span><strong style="color:black">A. Zocca</strong></span>, <span>S.H. Low</span>, <span>A. Wierman</span>
+        <span class="middot-divider"></span>
+        <span style="color:gray"> <em>IEEE Transactions on Power Systems</em> </span>
+      </div>
+      
+    </div>
+
+    
+    <a href="/alessandrozocca/alessandrozocca.github.io/publication/guo2021b/"  class="summary-link">
+      <div class="article-style">
+        How does the network topology affect failure propagation in power systems? Here&rsquo;s comprehensive theory in two parts!
+      </div>
+    </a>
+    
+
+    
+
+    
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+  
+  
+  
+    
+  
+  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://arxiv.org/abs/2005.11320" target="_blank" rel="noopener">
+    <i class="ai ai-arxiv mr-1"></i>
+    arXiv preprint
+  </a>
+
+  
+  
+  
+  
+  
+  
+  
+    
+    
+      
+    
+  
+  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/alessandrozocca/alessandrozocca.github.io/papers/guo2021b.pdf" >
+    <i class="ai ai-open-access mr-1"></i>
+    PDF
+  </a>
+
+  
+  
+  
+  
+  
+  
+  
+    
+  
+  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://doi.org/10.1109/TPWRS.2021.3068048" target="_blank" rel="noopener">
+    <i class="ai ai-doi mr-1"></i>
+    DOI
+  </a>
+
+  
+  
+  
+  
+  
+  
+  
+    
+    
+      
+    
+  
+  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/alessandrozocca/alessandrozocca.github.io/papers/guo2021b.bib" >
+    <i class="ai ai-semantic-scholar mr-1"></i>
+    bib
+  </a>
+
+
+    </div>
+    
+    <br>
+
+  </div>
+  <div class="ml-3">
+    
+    
+    
+    <a href="/alessandrozocca/alessandrozocca.github.io/publication/guo2021b/" >
+      <img src="/alessandrozocca/alessandrozocca.github.io/publication/guo2021b/featured_hu5eddf18dcca4980af25fdf5d3a022424_612387_150x0_resize_q75_h2_lanczos_3.webp" height="113" width="150"
+           alt="Line Failure Localization of Power Networks. Part II: Cut Set Outages" loading="lazy">
+    </a>
+    
+  </div>
+</div>
+
+        
+          
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+<div class="media stream-item">
+  <div class="media-body">
+
+    <div class="article-title mb-0 mt-0">
+      <a href="/alessandrozocca/alessandrozocca.github.io/publication/guo2021a/" >Line Failure Localization of Power Networks. Part I: Non-cut outages</a> (2021)
+    </div>
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+      <div>
+        
+
+  
+  <span>L. Guo</span>, <span>L. Chen</span>, <span><strong style="color:black">A. Zocca</strong></span>, <span>S.H. Low</span>, <span>A. Wierman</span>
+        <span class="middot-divider"></span>
+        <span style="color:gray"> <em>IEEE Transactions on Power Systems</em> </span>
+      </div>
+      
+    </div>
+
+    
+    <a href="/alessandrozocca/alessandrozocca.github.io/publication/guo2021a/"  class="summary-link">
+      <div class="article-style">
+        How does the network topology affect failure propagation in power systems? Here&rsquo;s a comprehensive theory in two parts!
+      </div>
+    </a>
+    
+
+    
+
+    
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+  
+  
+  
+    
+  
+  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://arxiv.org/abs/2005.10199" target="_blank" rel="noopener">
+    <i class="ai ai-arxiv mr-1"></i>
+    arXiv preprint
+  </a>
+
+  
+  
+  
+  
+  
+  
+  
+    
+    
+      
+    
+  
+  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/alessandrozocca/alessandrozocca.github.io/papers/guo2021a.pdf" >
+    <i class="ai ai-open-access mr-1"></i>
+    PDF
+  </a>
+
+  
+  
+  
+  
+  
+  
+  
+    
+  
+  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://doi.org/10.1109/TPWRS.2021.3066336" target="_blank" rel="noopener">
+    <i class="ai ai-doi mr-1"></i>
+    DOI
+  </a>
+
+  
+  
+  
+  
+  
+  
+  
+    
+    
+      
+    
+  
+  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/alessandrozocca/alessandrozocca.github.io/papers/guo2021a.bib" >
+    <i class="ai ai-semantic-scholar mr-1"></i>
+    bib
+  </a>
+
+
+    </div>
+    
+    <br>
+
+  </div>
+  <div class="ml-3">
+    
+    
+    
+    <a href="/alessandrozocca/alessandrozocca.github.io/publication/guo2021a/" >
+      <img src="/alessandrozocca/alessandrozocca.github.io/publication/guo2021a/featured_huc88b8b53b2a59d718ba5f9f1200549a1_75012_150x0_resize_q75_h2_lanczos_3.webp" height="75" width="150"
+           alt="Line Failure Localization of Power Networks. Part I: Non-cut outages" loading="lazy">
+    </a>
+    
+  </div>
+</div>
+
+        
+          
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+<div class="media stream-item">
+  <div class="media-body">
+
+    <div class="article-title mb-0 mt-0">
+      <a href="/alessandrozocca/alessandrozocca.github.io/publication/chen2020a/" >An Integrated Approach for Failure Mitigation &amp; Localization in Power Systems</a> (2021)
+    </div>
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+      <div>
+        
+
+  
+  <span>L. Chen</span>, <span>L. Guo</span>, <span><strong style="color:black">A. Zocca</strong></span>, <span>S. Yu</span>, <span>S.H. Low</span>, <span>A. Wierman</span>
+        <span class="middot-divider"></span>
+        <span style="color:gray"> <em>Electric Power Systems Research</em> </span>
+      </div>
+      
+    </div>
+
+    
+    <a href="/alessandrozocca/alessandrozocca.github.io/publication/chen2020a/"  class="summary-link">
+      <div class="article-style">
+        How to combine fast-scale frequency control with line switching to make power networks more robust?
+      </div>
+    </a>
+    
+
+    
+
+    
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+  
+  
+  
+    
+  
+  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://arxiv.org/abs/2004.10401" target="_blank" rel="noopener">
+    <i class="ai ai-arxiv mr-1"></i>
+    arXiv preprint
+  </a>
+
+  
+  
+  
+  
+  
+  
+  
+    
+    
+      
+    
+  
+  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/alessandrozocca/alessandrozocca.github.io/papers/chen2020a.pdf" >
+    <i class="ai ai-open-access mr-1"></i>
+    PDF
+  </a>
+
+  
+  
+  
+  
+  
+  
+  
+    
+  
+  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://doi.org/10.1016/j.epsr.2020.106613" target="_blank" rel="noopener">
+    <i class="ai ai-doi mr-1"></i>
+    DOI
+  </a>
+
+  
+  
+  
+  
+  
+  
+  
+    
+    
+      
+    
+  
+  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/alessandrozocca/alessandrozocca.github.io/papers/chen2020a.bib" >
+    <i class="ai ai-semantic-scholar mr-1"></i>
+    bib
+  </a>
+
+
+    </div>
+    
+    <br>
+
+  </div>
+  <div class="ml-3">
+    
+    
+    
+    <a href="/alessandrozocca/alessandrozocca.github.io/publication/chen2020a/" >
+      <img src="/alessandrozocca/alessandrozocca.github.io/publication/chen2020a/featured_hu40ea9f4fd2ad311d5d7f7b42b1797b84_1361862_150x0_resize_q75_h2_lanczos_3.webp" height="112" width="150"
+           alt="An Integrated Approach for Failure Mitigation &amp; Localization in Power Systems" loading="lazy">
+    </a>
+    
+  </div>
+</div>
+
+        
+          
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+<div class="media stream-item">
+  <div class="media-body">
+
+    <div class="article-title mb-0 mt-0">
+      <a href="/alessandrozocca/alessandrozocca.github.io/publication/zocca2020/" >Optimization of stochastic lossy transport networks and applications to power grids</a> (2021)
+    </div>
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+      <div>
+        
+
+  
+  <span><strong style="color:black">A. Zocca</strong></span>, <span>B. Zwart</span>
+        <span class="middot-divider"></span>
+        <span style="color:gray"> <em>Stochastic Systems</em> </span>
+      </div>
+      
+    </div>
+
+    
+    <a href="/alessandrozocca/alessandrozocca.github.io/publication/zocca2020/"  class="summary-link">
+      <div class="article-style">
+        How to optimally cope with correlated stochastic fluctuations in power systems?
+      </div>
+    </a>
+    
+
+    
+
+    
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+  
+  
+  
+    
+  
+  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://arxiv.org/abs/1712.07411" target="_blank" rel="noopener">
+    <i class="ai ai-arxiv mr-1"></i>
+    arXiv preprint
+  </a>
+
+  
+  
+  
+  
+  
+  
+  
+    
+    
+      
+    
+  
+  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/alessandrozocca/alessandrozocca.github.io/papers/zocca2021.pdf" >
+    <i class="ai ai-open-access mr-1"></i>
+    PDF
+  </a>
+
+  
+  
+  
+  
+  
+  
+  
+    
+  
+  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://doi.org/10.1287/stsy.2019.0063" target="_blank" rel="noopener">
+    <i class="ai ai-doi mr-1"></i>
+    DOI
+  </a>
+
+  
+  
+  
+  
+  
+  
+  
+    
+    
+      
+    
+  
+  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/alessandrozocca/alessandrozocca.github.io/papers/zocca2021.bib" >
+    <i class="ai ai-semantic-scholar mr-1"></i>
+    bib
+  </a>
+
+
+    </div>
+    
+    <br>
+
+  </div>
+  <div class="ml-3">
+    
+    
+    
+    <a href="/alessandrozocca/alessandrozocca.github.io/publication/zocca2020/" >
+      <img src="/alessandrozocca/alessandrozocca.github.io/publication/zocca2020/featured_huc6a1a9d6715b547ccb302cfa70623b7d_170009_150x0_resize_q75_h2_lanczos_3.webp" height="129" width="150"
+           alt="Optimization of stochastic lossy transport networks and applications to power grids" loading="lazy">
+    </a>
+    
+  </div>
+</div>
+
+        
+          
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+<div class="media stream-item">
+  <div class="media-body">
+
+    <div class="article-title mb-0 mt-0">
+      <a href="/alessandrozocca/alessandrozocca.github.io/publication/chen2020b/" >Mitigating Cascading Failures via Local Responses</a> (2020)
+    </div>
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+      <div>
+        
+
+  
+  <span>L. Chen</span>, <span>F. Zhou</span>, <span><strong style="color:black">A. Zocca</strong></span>, <span>S.H. Low</span>, <span>A. Wierman</span>
+        <span class="middot-divider"></span>
+        <span style="color:gray"> <em>IEEE SmartGridComm 2020</em> </span>
+      </div>
+      
+    </div>
+
+    
+    <a href="/alessandrozocca/alessandrozocca.github.io/publication/chen2020b/"  class="summary-link">
+      <div class="article-style">
+        Is it possible to react only locally yet efficiently to line failures in power systems?
+      </div>
+    </a>
+    
+
+    
+
+    
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+  
+  
+  
+    
+    
+      
+    
+  
+  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/alessandrozocca/alessandrozocca.github.io/papers/chen2020b.pdf" >
+    <i class="ai ai-open-access mr-1"></i>
+    PDF
+  </a>
+
+  
+  
+  
+  
+  
+  
+  
+    
+  
+  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://doi.org/10.1109/SmartGridComm47815.2020.9302934" target="_blank" rel="noopener">
+    <i class="ai ai-doi mr-1"></i>
+    DOI
+  </a>
+
+  
+  
+  
+  
+  
+  
+  
+    
+    
+      
+    
+  
+  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/alessandrozocca/alessandrozocca.github.io/papers/chen2020b.bib" >
+    <i class="ai ai-semantic-scholar mr-1"></i>
+    bib
+  </a>
+
+
+    </div>
+    
+    <br>
+
+  </div>
+  <div class="ml-3">
+    
+    
+    
+    <a href="/alessandrozocca/alessandrozocca.github.io/publication/chen2020b/" >
+      <img src="/alessandrozocca/alessandrozocca.github.io/publication/chen2020b/featured_huc52935b99245a0a85bc3b826f34ec109_442584_150x0_resize_q75_h2_lanczos_3.webp" height="113" width="150"
+           alt="Mitigating Cascading Failures via Local Responses" loading="lazy">
+    </a>
+    
+  </div>
+</div>
+
+        
+          
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+<div class="media stream-item">
+  <div class="media-body">
+
+    <div class="article-title mb-0 mt-0">
+      <a href="/alessandrozocca/alessandrozocca.github.io/publication/guo2019/" >Less is More: Real-time Failure Localization in Power Systems</a> (2019)
+    </div>
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+      <div>
+        
+
+  
+  <span>L. Guo</span>, <span>C. Liang</span>, <span><strong style="color:black">A. Zocca</strong></span>, <span>S.H. Low</span>, <span>A. Wierman</span>
+        <span class="middot-divider"></span>
+        <span style="color:gray"> <em>2019 Conference on Decision and Control (CDC)</em> </span>
+      </div>
+      
+    </div>
+
+    
+    <a href="/alessandrozocca/alessandrozocca.github.io/publication/guo2019/"  class="summary-link">
+      <div class="article-style">
+        A distributed control strategy operating on the frequency regulation timescale with provable failure mitigation properties and localization guarantees
+      </div>
+    </a>
+    
+
+    
+
+    
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+  
+  
+  
+    
+  
+  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://arxiv.org/abs/1904.05461" target="_blank" rel="noopener">
+    <i class="ai ai-arxiv mr-1"></i>
+    arXiv preprint
+  </a>
+
+  
+  
+  
+  
+  
+  
+  
+    
+    
+      
+    
+  
+  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/alessandrozocca/alessandrozocca.github.io/papers/guo2019.pdf" >
+    <i class="ai ai-open-access mr-1"></i>
+    PDF
+  </a>
+
+  
+  
+  
+  
+  
+  
+  
+    
+  
+  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://doi.org/10.1109/CDC40024.2019.9029393" target="_blank" rel="noopener">
+    <i class="ai ai-doi mr-1"></i>
+    DOI
+  </a>
+
+  
+  
+  
+  
+  
+  
+  
+    
+    
+      
+    
+  
+  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/alessandrozocca/alessandrozocca.github.io/papers/guo2019.bib" >
+    <i class="ai ai-semantic-scholar mr-1"></i>
+    bib
+  </a>
+
+
+    </div>
+    
+    <br>
+
+  </div>
+  <div class="ml-3">
+    
+    
+    
+    <a href="/alessandrozocca/alessandrozocca.github.io/publication/guo2019/" >
+      <img src="/alessandrozocca/alessandrozocca.github.io/publication/guo2019/featured_hue4b05878c0c5fdeee132feedbd8d4c8d_105846_150x0_resize_q75_h2_lanczos_3.webp" height="67" width="150"
+           alt="Less is More: Real-time Failure Localization in Power Systems" loading="lazy">
+    </a>
+    
+  </div>
+</div>
+
+        
+          
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+<div class="media stream-item">
+  <div class="media-body">
+
+    <div class="article-title mb-0 mt-0">
+      <a href="/alessandrozocca/alessandrozocca.github.io/publication/guo2018/" >Failure Localization in Power Systems via Tree Partitions</a> (2018)
+    </div>
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+      <div>
+        
+
+  
+  <span>L. Guo</span>, <span>C. Liang</span>, <span><strong style="color:black">A. Zocca</strong></span>, <span>S.H. Low</span>, <span>A. Wierman</span>
+        <span class="middot-divider"></span>
+        <span style="color:gray"> <em>2018 Conference on Decision and Control (CDC)</em> </span>
+      </div>
+      
+    </div>
+
+    
+    <a href="/alessandrozocca/alessandrozocca.github.io/publication/guo2018/"  class="summary-link">
+      <div class="article-style">
+        How do line failure propagate in power systems? Graph theory comes to rescue!
+      </div>
+    </a>
+    
+
+    
+
+    
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+  
+  
+  
+    
+  
+  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://arxiv.org/abs/1803.08551" target="_blank" rel="noopener">
+    <i class="ai ai-arxiv mr-1"></i>
+    arXiv preprint
+  </a>
+
+  
+  
+  
+  
+  
+  
+  
+    
+    
+      
+    
+  
+  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/alessandrozocca/alessandrozocca.github.io/papers/guo2018.pdf" >
+    <i class="ai ai-open-access mr-1"></i>
+    PDF
+  </a>
+
+  
+  
+  
+  
+  
+  
+  
+    
+  
+  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://doi.org/10.1109/CDC.2018.8619562" target="_blank" rel="noopener">
+    <i class="ai ai-doi mr-1"></i>
+    DOI
+  </a>
+
+  
+  
+  
+  
+  
+  
+  
+    
+    
+      
+    
+  
+  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/alessandrozocca/alessandrozocca.github.io/papers/guo2018.bib" >
+    <i class="ai ai-semantic-scholar mr-1"></i>
+    bib
+  </a>
+
+
+    </div>
+    
+    <br>
+
+  </div>
+  <div class="ml-3">
+    
+    
+    
+    <a href="/alessandrozocca/alessandrozocca.github.io/publication/guo2018/" >
+      <img src="/alessandrozocca/alessandrozocca.github.io/publication/guo2018/featured_huea39468f1ac6eb1992a708c8ac89173b_759601_150x0_resize_q75_h2_lanczos_3.webp" height="87" width="150"
+           alt="Failure Localization in Power Systems via Tree Partitions" loading="lazy">
+    </a>
+    
+  </div>
+</div>
+
+        
+          
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+<div class="media stream-item">
+  <div class="media-body">
+
+    <div class="article-title mb-0 mt-0">
+      <a href="/alessandrozocca/alessandrozocca.github.io/publication/zocca2016/" >Minimizing heat loss in DC networks using batteries</a> (2016)
+    </div>
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+      <div>
+        
+
+  
+  <span><strong style="color:black">A. Zocca</strong></span>, <span>B. Zwart</span>
+        <span class="middot-divider"></span>
+        <span style="color:gray"> <em>2016 Allerton Conference on Communication, Control, and Computing</em> </span>
+      </div>
+      
+    </div>
+
+    
+    <a href="/alessandrozocca/alessandrozocca.github.io/publication/zocca2016/"  class="summary-link">
+      <div class="article-style">
+        How to minimize losses using controllable loads in power systems affected by uncertainty?
+      </div>
+    </a>
+    
+
+    
+
+    
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+  
+  
+  
+    
+  
+  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://arxiv.org/abs/1607.06040" target="_blank" rel="noopener">
+    <i class="ai ai-arxiv mr-1"></i>
+    arXiv preprint
+  </a>
+
+  
+  
+  
+  
+  
+  
+  
+    
+    
+      
+    
+  
+  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/alessandrozocca/alessandrozocca.github.io/papers/zocca2016.pdf" >
+    <i class="ai ai-open-access mr-1"></i>
+    PDF
+  </a>
+
+  
+  
+  
+  
+  
+  
+  
+    
+  
+  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://doi.org/10.1109/ALLERTON.2016.7852385" target="_blank" rel="noopener">
+    <i class="ai ai-doi mr-1"></i>
+    DOI
+  </a>
+
+  
+  
+  
+  
+  
+  
+  
+    
+    
+      
+    
+  
+  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/alessandrozocca/alessandrozocca.github.io/papers/zocca2016.bib" >
+    <i class="ai ai-semantic-scholar mr-1"></i>
+    bib
+  </a>
+
+
+    </div>
+    
+    <br>
+
+  </div>
+  <div class="ml-3">
+    
+    
+    
+    <a href="/alessandrozocca/alessandrozocca.github.io/publication/zocca2016/" >
+      <img src="/alessandrozocca/alessandrozocca.github.io/publication/zocca2016/featured_hu2b54d153e2ab29c37c62ed423674bf92_156716_150x0_resize_q75_h2_lanczos_3.webp" height="98" width="150"
+           alt="Minimizing heat loss in DC networks using batteries" loading="lazy">
+    </a>
+    
+  </div>
+</div>
+
+        
+      
+
+      
+      
+      
+    </div>
+  </div>
+</article>
+  </div>
+
+  <div class="page-footer">
+    
+    
+    <div class="container">
+      <footer class="site-footer">
+
+  
+
+
+
+  
+
+  
+
+  
+  <p class="powered-by">
+    © 2022 Alessandro Zocca
+  </p>
+  
+
+  
+  
+
+
+
+
+
+
+  <p class="powered-by">
+    
+    
+    
+      
+      
+      
+      
+      
+      
+      Published with <a href="https://wowchemy.com/?utm_campaign=poweredby" target="_blank" rel="noopener">Wowchemy</a> — the free, <a href="https://github.com/wowchemy/wowchemy-hugo-themes" target="_blank" rel="noopener">open source</a> website builder that empowers creators.
+    
+  </p>
+</footer>
+
+    </div>
+    
+  </div>
+
+  
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Cite</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <pre><code class="tex hljs"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+      
+
+    
+    <script src="/alessandrozocca/alessandrozocca.github.io/js/vendor-bundle.min.b73dfaac3b6499dc997741748a7c3fe2.js"></script>
+
+    
+    
+    
+      
+      
+        <script src="https://cdn.jsdelivr.net/gh/desandro/imagesloaded@v4.1.4/imagesloaded.pkgd.min.js" integrity="sha512-S5PZ9GxJZO16tT9r3WJp/Safn31eu8uWrzglMahDT4dsmgqWonRY9grk3j+3tfuPr9WJNsfooOR7Gi7HL5W2jw==" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/gh/metafizzy/isotope@v3.0.6/dist/isotope.pkgd.min.js" integrity="sha512-Zq2BOxyhvnRFXu0+WE6ojpZLOU2jdnqbrM1hmVdGzyeCa1DgM3X5Q4A/Is9xA1IkbUeDd7755dNNI/PzSf2Pew==" crossorigin="anonymous"></script>
+      
+
+      
+      
+
+      
+
+      
+        
+        <script src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.2.1/build/highlight.min.js" integrity="sha512-Ypjm0o7jOxAd4hpdoppSEN0TQOC19UtPAqD+4s5AlXmUvbmmS/YMxYqAqarQYyxTnB6/rqip9qcxlNB/3U9Wdg==" crossorigin="anonymous"></script>
+        
+        
+        <script src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.2.1/build/languages/r.min.js" crossorigin="anonymous"></script>
+        
+      
+
+    
+
+    
+    
+    
+
+    
+    
+
+    
+    
+    
+
+    
+    
+
+    
+    
+    
+    
+
+    
+    
+
+    
+
+    
+    
+    
+    <script id="page-data" type="application/json">{"use_headroom":true}</script>
+
+    
+    
+      <script src="/alessandrozocca/alessandrozocca.github.io/js/wowchemy-headroom.1cb9e2fc8399acee94eab837265b73bf.js" type="module"></script>
+    
+    
+    
+    
+    
+    
+    
+    
+    <script src="/alessandrozocca/alessandrozocca.github.io/en/js/wowchemy.min.216188596c551a0582beb89fb0d646e2.js"></script>
+
+    
+
+
+
+
+
+
+</body>
+</html>
