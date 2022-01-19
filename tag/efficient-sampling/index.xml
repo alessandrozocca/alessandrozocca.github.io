@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Efficient sampling | Alessandro Zocca</title>
-    <link>https://github.com/alessandrozocca/alessandrozocca.github.io/tag/efficient-sampling/</link>
-      <atom:link href="https://github.com/alessandrozocca/alessandrozocca.github.io/tag/efficient-sampling/index.xml" rel="self" type="application/rss+xml" />
+    <link>/tag/efficient-sampling/</link>
+      <atom:link href="/tag/efficient-sampling/index.xml" rel="self" type="application/rss+xml" />
     <description>Efficient sampling</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2022 Alessandro Zocca</copyright>
     <image>
-      <url>https://github.com/alessandrozocca/alessandrozocca.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
+      <url>/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_3.png</url>
       <title>Efficient sampling</title>
-      <link>https://github.com/alessandrozocca/alessandrozocca.github.io/tag/efficient-sampling/</link>
+      <link>/tag/efficient-sampling/</link>
     </image>
     
     <item>
       <title>MCMC methods for rare events and non-convex supports</title>
-      <link>https://github.com/alessandrozocca/alessandrozocca.github.io/project/mcmc-methods-for-rare-events-and-non-convex-supports/</link>
+      <link>/project/mcmc-methods-for-rare-events-and-non-convex-supports/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://github.com/alessandrozocca/alessandrozocca.github.io/project/mcmc-methods-for-rare-events-and-non-convex-supports/</guid>
+      <guid>/project/mcmc-methods-for-rare-events-and-non-convex-supports/</guid>
       <description>&lt;p&gt;Developing novel sampling methods, with applications to rare event sampling and stochastic optimization.&lt;/p&gt;
 &lt;p&gt;See below for the list of related publications and preprints.&lt;/p&gt;
 </description>

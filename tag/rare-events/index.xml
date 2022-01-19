@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Rare events | Alessandro Zocca</title>
-    <link>https://github.com/alessandrozocca/alessandrozocca.github.io/tag/rare-events/</link>
-      <atom:link href="https://github.com/alessandrozocca/alessandrozocca.github.io/tag/rare-events/index.xml" rel="self" type="application/rss+xml" />
+    <link>/tag/rare-events/</link>
+      <atom:link href="/tag/rare-events/index.xml" rel="self" type="application/rss+xml" />
     <description>Rare events</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2022 Alessandro Zocca</copyright>
     <image>
-      <url>https://github.com/alessandrozocca/alessandrozocca.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
+      <url>/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_3.png</url>
       <title>Rare events</title>
-      <link>https://github.com/alessandrozocca/alessandrozocca.github.io/tag/rare-events/</link>
+      <link>/tag/rare-events/</link>
     </image>
     
     <item>
       <title>Rare events in stochastic networks</title>
-      <link>https://github.com/alessandrozocca/alessandrozocca.github.io/project/rare-events-in-stochastic-networks/</link>
+      <link>/project/rare-events-in-stochastic-networks/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://github.com/alessandrozocca/alessandrozocca.github.io/project/rare-events-in-stochastic-networks/</guid>
+      <guid>/project/rare-events-in-stochastic-networks/</guid>
       <description>&lt;p&gt;Unveiling how correlated noise and coupled network dynamics can increase the likelihood of rare events, such as blackouts in power systems with a large renewable penetration.&lt;/p&gt;
 &lt;p&gt;See below for the list of related publications and preprints.&lt;/p&gt;
 &lt;!-- # Header one
@@ -113,7 +113,7 @@ Horizontal Rule
 
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://github.com/alessandrozocca/alessandrozocca.github.io/img/ising.jpg&#34; alt=&#34;&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;../../img/ising.jpg&#34; alt=&#34;&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;
 
 
@@ -132,10 +132,10 @@ Horizontal Rule
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
-               /alessandrozocca/alessandrozocca.github.io/project/rare-events-in-stochastic-networks/featured_hu6d978e24654c3ae7614e48cb3b780e01_782343_4c10542d393e8f4eca26cc91896a9c8d.webp 400w,
-               /alessandrozocca/alessandrozocca.github.io/project/rare-events-in-stochastic-networks/featured_hu6d978e24654c3ae7614e48cb3b780e01_782343_d71fed69dca37bb09bc22bd32ca4d849.webp 760w,
-               /alessandrozocca/alessandrozocca.github.io/project/rare-events-in-stochastic-networks/featured_hu6d978e24654c3ae7614e48cb3b780e01_782343_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
-               src=&#34;https://github.com/alessandrozocca/alessandrozocca.github.io/alessandrozocca/alessandrozocca.github.io/project/rare-events-in-stochastic-networks/featured_hu6d978e24654c3ae7614e48cb3b780e01_782343_4c10542d393e8f4eca26cc91896a9c8d.webp&#34;
+               /project/rare-events-in-stochastic-networks/featured_hu6d978e24654c3ae7614e48cb3b780e01_782343_c2831e9490b83fca83fa52182072e71f.webp 400w,
+               /project/rare-events-in-stochastic-networks/featured_hu6d978e24654c3ae7614e48cb3b780e01_782343_d71fed69dca37bb09bc22bd32ca4d849.webp 760w,
+               /project/rare-events-in-stochastic-networks/featured_hu6d978e24654c3ae7614e48cb3b780e01_782343_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;../../project/rare-events-in-stochastic-networks/featured_hu6d978e24654c3ae7614e48cb3b780e01_782343_c2831e9490b83fca83fa52182072e71f.webp&#34;
                width=&#34;718&#34;
                height=&#34;760&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
