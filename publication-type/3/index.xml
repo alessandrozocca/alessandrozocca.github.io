@@ -2,53 +2,53 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>3 | Alessandro Zocca</title>
-    <link>https://github.com/alessandrozocca/alessandrozocca.github.io/publication-type/3/</link>
-      <atom:link href="https://github.com/alessandrozocca/alessandrozocca.github.io/publication-type/3/index.xml" rel="self" type="application/rss+xml" />
+    <link>/publication-type/3/</link>
+      <atom:link href="/publication-type/3/index.xml" rel="self" type="application/rss+xml" />
     <description>3</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2022 Alessandro Zocca</copyright><lastBuildDate>Sat, 02 Oct 2021 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://github.com/alessandrozocca/alessandrozocca.github.io/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_3.png</url>
+      <url>/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_3.png</url>
       <title>3</title>
-      <link>https://github.com/alessandrozocca/alessandrozocca.github.io/publication-type/3/</link>
+      <link>/publication-type/3/</link>
     </image>
     
     <item>
       <title>An MILP-based approach to tree partitioning with minimal power flow disruption and generator coherency constraints</title>
-      <link>https://github.com/alessandrozocca/alessandrozocca.github.io/publication/lan2021b/</link>
+      <link>/publication/lan2021b/</link>
       <pubDate>Sat, 02 Oct 2021 00:00:00 +0000</pubDate>
-      <guid>https://github.com/alessandrozocca/alessandrozocca.github.io/publication/lan2021b/</guid>
+      <guid>/publication/lan2021b/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Refining bridge-block decompositions through two-stage and recursive tree partitioning</title>
-      <link>https://github.com/alessandrozocca/alessandrozocca.github.io/publication/lan2021a/</link>
+      <link>/publication/lan2021a/</link>
       <pubDate>Fri, 01 Oct 2021 00:00:00 +0000</pubDate>
-      <guid>https://github.com/alessandrozocca/alessandrozocca.github.io/publication/lan2021a/</guid>
+      <guid>/publication/lan2021a/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Hopping between distant basins</title>
-      <link>https://github.com/alessandrozocca/alessandrozocca.github.io/publication/goodridge2021/</link>
+      <link>/publication/goodridge2021/</link>
       <pubDate>Sun, 01 Aug 2021 00:00:00 +0000</pubDate>
-      <guid>https://github.com/alessandrozocca/alessandrozocca.github.io/publication/goodridge2021/</guid>
+      <guid>/publication/goodridge2021/</guid>
       <description></description>
     </item>
     
     <item>
       <title>A Spectral Representation of Power Systems with Applications to Adaptive Grid Partitioning and Cascading Failure Localization</title>
-      <link>https://github.com/alessandrozocca/alessandrozocca.github.io/publication/zocca2021b/</link>
+      <link>/publication/zocca2021b/</link>
       <pubDate>Sat, 01 May 2021 00:00:00 +0000</pubDate>
-      <guid>https://github.com/alessandrozocca/alessandrozocca.github.io/publication/zocca2021b/</guid>
+      <guid>/publication/zocca2021b/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Large fluctuations in locational marginal prices</title>
-      <link>https://github.com/alessandrozocca/alessandrozocca.github.io/publication/nesti2020/</link>
+      <link>/publication/nesti2020/</link>
       <pubDate>Wed, 26 Feb 2020 00:00:00 +0000</pubDate>
-      <guid>https://github.com/alessandrozocca/alessandrozocca.github.io/publication/nesti2020/</guid>
+      <guid>/publication/nesti2020/</guid>
       <description>&lt;p&gt;
 
 

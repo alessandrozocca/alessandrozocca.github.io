@@ -2,77 +2,77 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>1 | Alessandro Zocca</title>
-    <link>https://github.com/alessandrozocca/alessandrozocca.github.io/publication-type/1/</link>
-      <atom:link href="https://github.com/alessandrozocca/alessandrozocca.github.io/publication-type/1/index.xml" rel="self" type="application/rss+xml" />
+    <link>/publication-type/1/</link>
+      <atom:link href="/publication-type/1/index.xml" rel="self" type="application/rss+xml" />
     <description>1</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2022 Alessandro Zocca</copyright><lastBuildDate>Fri, 16 Oct 2020 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://github.com/alessandrozocca/alessandrozocca.github.io/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_3.png</url>
+      <url>/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_3.png</url>
       <title>1</title>
-      <link>https://github.com/alessandrozocca/alessandrozocca.github.io/publication-type/1/</link>
+      <link>/publication-type/1/</link>
     </image>
     
     <item>
       <title>Mitigating Cascading Failures via Local Responses</title>
-      <link>https://github.com/alessandrozocca/alessandrozocca.github.io/publication/chen2020b/</link>
+      <link>/publication/chen2020b/</link>
       <pubDate>Fri, 16 Oct 2020 00:00:00 +0000</pubDate>
-      <guid>https://github.com/alessandrozocca/alessandrozocca.github.io/publication/chen2020b/</guid>
+      <guid>/publication/chen2020b/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Less is More: Real-time Failure Localization in Power Systems</title>
-      <link>https://github.com/alessandrozocca/alessandrozocca.github.io/publication/guo2019/</link>
+      <link>/publication/guo2019/</link>
       <pubDate>Fri, 13 Dec 2019 00:00:00 +0000</pubDate>
-      <guid>https://github.com/alessandrozocca/alessandrozocca.github.io/publication/guo2019/</guid>
+      <guid>/publication/guo2019/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Frequency violations from random disturbances: an MCMC approach</title>
-      <link>https://github.com/alessandrozocca/alessandrozocca.github.io/publication/moriarty2018/</link>
+      <link>/publication/moriarty2018/</link>
       <pubDate>Mon, 17 Dec 2018 00:00:00 +0000</pubDate>
-      <guid>https://github.com/alessandrozocca/alessandrozocca.github.io/publication/moriarty2018/</guid>
+      <guid>/publication/moriarty2018/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Failure Localization in Power Systems via Tree Partitions</title>
-      <link>https://github.com/alessandrozocca/alessandrozocca.github.io/publication/guo2018/</link>
+      <link>/publication/guo2018/</link>
       <pubDate>Sun, 16 Dec 2018 00:00:00 +0000</pubDate>
-      <guid>https://github.com/alessandrozocca/alessandrozocca.github.io/publication/guo2018/</guid>
+      <guid>/publication/guo2018/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Line failure probability bounds for power grids</title>
-      <link>https://github.com/alessandrozocca/alessandrozocca.github.io/publication/nesti2017/</link>
+      <link>/publication/nesti2017/</link>
       <pubDate>Sat, 01 Jul 2017 00:00:00 +0000</pubDate>
-      <guid>https://github.com/alessandrozocca/alessandrozocca.github.io/publication/nesti2017/</guid>
+      <guid>/publication/nesti2017/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Minimizing heat loss in DC networks using batteries</title>
-      <link>https://github.com/alessandrozocca/alessandrozocca.github.io/publication/zocca2016/</link>
+      <link>/publication/zocca2016/</link>
       <pubDate>Thu, 01 Sep 2016 00:00:00 +0000</pubDate>
-      <guid>https://github.com/alessandrozocca/alessandrozocca.github.io/publication/zocca2016/</guid>
+      <guid>/publication/zocca2016/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Slow Transitions and Starvation in Dense Random-Access Networks</title>
-      <link>https://github.com/alessandrozocca/alessandrozocca.github.io/publication/zocca2015b/</link>
+      <link>/publication/zocca2015b/</link>
       <pubDate>Mon, 22 Jun 2015 00:00:00 +0000</pubDate>
-      <guid>https://github.com/alessandrozocca/alessandrozocca.github.io/publication/zocca2015b/</guid>
+      <guid>/publication/zocca2015b/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Mixing properties of CSMA networks on partite graphs</title>
-      <link>https://github.com/alessandrozocca/alessandrozocca.github.io/publication/zocca2012/</link>
+      <link>/publication/zocca2012/</link>
       <pubDate>Sat, 01 Sep 2012 00:00:00 +0000</pubDate>
-      <guid>https://github.com/alessandrozocca/alessandrozocca.github.io/publication/zocca2012/</guid>
+      <guid>/publication/zocca2012/</guid>
       <description></description>
     </item>
     

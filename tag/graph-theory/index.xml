@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Graph Theory | Alessandro Zocca</title>
-    <link>https://github.com/alessandrozocca/alessandrozocca.github.io/tag/graph-theory/</link>
-      <atom:link href="https://github.com/alessandrozocca/alessandrozocca.github.io/tag/graph-theory/index.xml" rel="self" type="application/rss+xml" />
+    <link>/tag/graph-theory/</link>
+      <atom:link href="/tag/graph-theory/index.xml" rel="self" type="application/rss+xml" />
     <description>Graph Theory</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2022 Alessandro Zocca</copyright>
     <image>
-      <url>https://github.com/alessandrozocca/alessandrozocca.github.io/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_3.png</url>
+      <url>/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_3.png</url>
       <title>Graph Theory</title>
-      <link>https://github.com/alessandrozocca/alessandrozocca.github.io/tag/graph-theory/</link>
+      <link>/tag/graph-theory/</link>
     </image>
     
     <item>
       <title>Algorithms and optimization for power systems reliability</title>
-      <link>https://github.com/alessandrozocca/alessandrozocca.github.io/project/algorithms-and-optimization-for-power-systems-reliability/</link>
+      <link>/project/algorithms-and-optimization-for-power-systems-reliability/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://github.com/alessandrozocca/alessandrozocca.github.io/project/algorithms-and-optimization-for-power-systems-reliability/</guid>
+      <guid>/project/algorithms-and-optimization-for-power-systems-reliability/</guid>
       <description>&lt;p&gt;Understanding the fundamental interplay between network topology and failure propagation in power systems using graph theory and spectral methods.&lt;/p&gt;
 &lt;p&gt;See below for the list of related publications and preprints.&lt;/p&gt;
 </description>
@@ -24,9 +24,9 @@
     
     <item>
       <title>Learning in power networks</title>
-      <link>https://github.com/alessandrozocca/alessandrozocca.github.io/project/learning-in-power-networks/</link>
+      <link>/project/learning-in-power-networks/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://github.com/alessandrozocca/alessandrozocca.github.io/project/learning-in-power-networks/</guid>
+      <guid>/project/learning-in-power-networks/</guid>
       <description>&lt;p&gt;Spectral clustering, adaptive network topology, and safe learning for power systems applications.&lt;/p&gt;
 &lt;p&gt;See below for the list of related publications and preprints.&lt;/p&gt;
 </description>
@@ -34,9 +34,9 @@
     
     <item>
       <title>Random-access networks</title>
-      <link>https://github.com/alessandrozocca/alessandrozocca.github.io/project/random-access-networks/</link>
+      <link>/project/random-access-networks/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://github.com/alessandrozocca/alessandrozocca.github.io/project/random-access-networks/</guid>
+      <guid>/project/random-access-networks/</guid>
       <description>&lt;p&gt;Quantifying throughput and delay performance of wireless networks protocols using Markov chains and heavy-traffic limits.&lt;/p&gt;
 &lt;p&gt;See below for the list of related publications and preprints.&lt;/p&gt;
 </description>
@@ -44,9 +44,9 @@
     
     <item>
       <title>Asymptotic behavior of interacting particle systems</title>
-      <link>https://github.com/alessandrozocca/alessandrozocca.github.io/project/asymptotic-behavior-of-interacting-particle-systems/</link>
+      <link>/project/asymptotic-behavior-of-interacting-particle-systems/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://github.com/alessandrozocca/alessandrozocca.github.io/project/asymptotic-behavior-of-interacting-particle-systems/</guid>
+      <guid>/project/asymptotic-behavior-of-interacting-particle-systems/</guid>
       <description>&lt;p&gt;Studying hitting and mixing times for interacting particle systems with stochastic evolutions and finite volume.&lt;/p&gt;
 &lt;p&gt;See below for the list of related publications and preprints.&lt;/p&gt;
 </description>
