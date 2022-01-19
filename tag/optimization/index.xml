@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Optimization | Alessandro Zocca</title>
-    <link>/tag/optimization/</link>
-      <atom:link href="/tag/optimization/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://alessandrozocca.github.io/tag/optimization/</link>
+      <atom:link href="https://alessandrozocca.github.io/tag/optimization/index.xml" rel="self" type="application/rss+xml" />
     <description>Optimization</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2022 Alessandro Zocca</copyright>
     <image>
-      <url>/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_3.png</url>
+      <url>https://alessandrozocca.github.io/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_3.png</url>
       <title>Optimization</title>
-      <link>/tag/optimization/</link>
+      <link>https://alessandrozocca.github.io/tag/optimization/</link>
     </image>
     
     <item>
       <title>Rare events in stochastic networks</title>
-      <link>/project/rare-events-in-stochastic-networks/</link>
+      <link>https://alessandrozocca.github.io/project/rare-events-in-stochastic-networks/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/project/rare-events-in-stochastic-networks/</guid>
+      <guid>https://alessandrozocca.github.io/project/rare-events-in-stochastic-networks/</guid>
       <description>&lt;p&gt;Unveiling how correlated noise and coupled network dynamics can increase the likelihood of rare events, such as blackouts in power systems with a large renewable penetration.&lt;/p&gt;
 &lt;p&gt;See below for the list of related publications and preprints.&lt;/p&gt;
 &lt;!-- # Header one
@@ -203,9 +203,9 @@ Task List
     
     <item>
       <title>Learning in power networks</title>
-      <link>/project/learning-in-power-networks/</link>
+      <link>https://alessandrozocca.github.io/project/learning-in-power-networks/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/project/learning-in-power-networks/</guid>
+      <guid>https://alessandrozocca.github.io/project/learning-in-power-networks/</guid>
       <description>&lt;p&gt;Spectral clustering, adaptive network topology, and safe learning for power systems applications.&lt;/p&gt;
 &lt;p&gt;See below for the list of related publications and preprints.&lt;/p&gt;
 </description>
