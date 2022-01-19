@@ -1,3 +1,3 @@
 User-agent: *
 
-Sitemap: sitemap.xml
+Sitemap: https://github.com/alessandrozocca/alessandrozocca.github.io/sitemap.xml
