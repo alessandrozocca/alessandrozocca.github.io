@@ -5,12 +5,28 @@
     <link>https://alessandrozocca.github.io/publication/</link>
       <atom:link href="https://alessandrozocca.github.io/publication/index.xml" rel="self" type="application/rss+xml" />
     <description>Publications</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2022 Alessandro Zocca</copyright><lastBuildDate>Sat, 02 Oct 2021 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2022 Alessandro Zocca</copyright><lastBuildDate>Thu, 10 Mar 2022 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://alessandrozocca.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
       <title>Publications</title>
       <link>https://alessandrozocca.github.io/publication/</link>
     </image>
+    
+    <item>
+      <title>Adaptive Network Response to Line Failures in Power Systems</title>
+      <link>https://alessandrozocca.github.io/publication/guo2022/</link>
+      <pubDate>Thu, 10 Mar 2022 00:00:00 +0000</pubDate>
+      <guid>https://alessandrozocca.github.io/publication/guo2022/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Interface Networks for Failure Localization in Power Systems</title>
+      <link>https://alessandrozocca.github.io/publication/liang2022/</link>
+      <pubDate>Tue, 01 Mar 2022 00:00:00 +0000</pubDate>
+      <guid>https://alessandrozocca.github.io/publication/liang2022/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>An MILP-based approach to tree partitioning with minimal power flow disruption and generator coherency constraints</title>
