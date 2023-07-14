@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>F.R. Nardi | Alessandro Zocca</title>
+    <link>http://localhost:1313/authors/f.r.-nardi/</link>
+      <atom:link href="http://localhost:1313/authors/f.r.-nardi/index.xml" rel="self" type="application/rss+xml" />
+    <description>F.R. Nardi</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2023 Alessandro Zocca</copyright><lastBuildDate>Fri, 01 Nov 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
+      <title>F.R. Nardi</title>
+      <link>http://localhost:1313/authors/f.r.-nardi/</link>
+    </image>
+    
+    <item>
+      <title>Tunneling behavior of Ising and Potts models in the low-temperature regime</title>
+      <link>http://localhost:1313/publication/nardi2019/</link>
+      <pubDate>Fri, 01 Nov 2019 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/nardi2019/</guid>
+      <description>&lt;h1 id=&#34;configurationimgisingjpg-configuration&#34;&gt;&lt;/h1&gt;
+&lt;h1 id=&#34;configurationimgisingjpg&#34;&gt;&lt;/h1&gt;
+&lt;h1 id=&#34;isingimgisingjpg&#34;&gt;&lt;/h1&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Hitting Time Asymptotics for Hard-Core Interactions on Grids</title>
+      <link>http://localhost:1313/publication/nardi2016/</link>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/nardi2016/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Delay performance in random-access grid networks</title>
+      <link>http://localhost:1313/publication/zocca2013/</link>
+      <pubDate>Tue, 01 Oct 2013 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/zocca2013/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>J.S.H. van Leeuwaarden | Alessandro Zocca</title>
+    <link>http://localhost:1313/authors/j.s.h.-van-leeuwaarden/</link>
+      <atom:link href="http://localhost:1313/authors/j.s.h.-van-leeuwaarden/index.xml" rel="self" type="application/rss+xml" />
+    <description>J.S.H. van Leeuwaarden</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2023 Alessandro Zocca</copyright><lastBuildDate>Mon, 22 Jun 2015 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
+      <title>J.S.H. van Leeuwaarden</title>
+      <link>http://localhost:1313/authors/j.s.h.-van-leeuwaarden/</link>
+    </image>
+    
+    <item>
+      <title>Slow Transitions and Starvation in Dense Random-Access Networks</title>
+      <link>http://localhost:1313/publication/zocca2015b/</link>
+      <pubDate>Mon, 22 Jun 2015 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/zocca2015b/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Delay performance in random-access grid networks</title>
+      <link>http://localhost:1313/publication/zocca2013/</link>
+      <pubDate>Tue, 01 Oct 2013 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/zocca2013/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Mixing properties of CSMA networks on partite graphs</title>
+      <link>http://localhost:1313/publication/zocca2012/</link>
+      <pubDate>Sat, 01 Sep 2012 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/zocca2012/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

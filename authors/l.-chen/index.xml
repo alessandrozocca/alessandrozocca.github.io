@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>L. Chen | Alessandro Zocca</title>
+    <link>http://localhost:1313/authors/l.-chen/</link>
+      <atom:link href="http://localhost:1313/authors/l.-chen/index.xml" rel="self" type="application/rss+xml" />
+    <description>L. Chen</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2023 Alessandro Zocca</copyright><lastBuildDate>Wed, 01 Mar 2023 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
+      <title>L. Chen</title>
+      <link>http://localhost:1313/authors/l.-chen/</link>
+    </image>
+    
+    <item>
+      <title>Adaptive Network Response to Line Failures in Power Systems</title>
+      <link>http://localhost:1313/publication/liang2023/</link>
+      <pubDate>Wed, 01 Mar 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/liang2023/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Interface Networks for Failure Localization in Power Systems</title>
+      <link>http://localhost:1313/publication/liang2022/</link>
+      <pubDate>Mon, 05 Sep 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/liang2022/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A Spectral Representation of Power Systems with Applications to Adaptive Grid Partitioning and Cascading Failure Localization</title>
+      <link>http://localhost:1313/publication/zocca2021b/</link>
+      <pubDate>Sat, 01 May 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/zocca2021b/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Line Failure Localization of Power Networks. Part II: Cut Set Outages</title>
+      <link>http://localhost:1313/publication/guo2021b/</link>
+      <pubDate>Fri, 19 Mar 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/guo2021b/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Line Failure Localization of Power Networks. Part I: Non-cut outages</title>
+      <link>http://localhost:1313/publication/guo2021a/</link>
+      <pubDate>Thu, 18 Mar 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/guo2021a/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>An Integrated Approach for Failure Mitigation &amp; Localization in Power Systems</title>
+      <link>http://localhost:1313/publication/chen2020a/</link>
+      <pubDate>Tue, 02 Feb 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/chen2020a/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Mitigating Cascading Failures via Local Responses</title>
+      <link>http://localhost:1313/publication/chen2020b/</link>
+      <pubDate>Fri, 16 Oct 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/chen2020b/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

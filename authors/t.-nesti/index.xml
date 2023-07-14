@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>T. Nesti | Alessandro Zocca</title>
+    <link>http://localhost:1313/authors/t.-nesti/</link>
+      <atom:link href="http://localhost:1313/authors/t.-nesti/index.xml" rel="self" type="application/rss+xml" />
+    <description>T. Nesti</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2023 Alessandro Zocca</copyright><lastBuildDate>Wed, 26 Feb 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
+      <title>T. Nesti</title>
+      <link>http://localhost:1313/authors/t.-nesti/</link>
+    </image>
+    
+    <item>
+      <title>Large fluctuations in locational marginal prices</title>
+      <link>http://localhost:1313/publication/nesti2020/</link>
+      <pubDate>Wed, 26 Feb 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/nesti2020/</guid>
+      <description>&lt;p&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Emergent failures and cascades in power grids: A statistical physics perspective</title>
+      <link>http://localhost:1313/publication/nesti2018/</link>
+      <pubDate>Thu, 21 Jun 2018 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/nesti2018/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Related news items&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+
+    
+
+&lt;a href=&#34;https://physics.aps.org/articles/v11/s72&#34;&gt;How Correlated Weather Fluctuations Take Down Power Grids (APS Synopsis)&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;
+
+    
+
+&lt;a href=&#34;https://www.cwi.nl/news/2018/cwi-researchers-make-power-grid-more-reliable-with-mathematics&#34;&gt;CWI Researchers Make Power Grids More Reliable With Mathematics (CWI release)&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;
+
+    
+
+&lt;a href=&#34;https://www.caltech.edu/about/news/new-model-shows-where-improve-power-grids-82606&#34;&gt;New Model Shows Where to Improve Power Grids (Resnick press release)&lt;/a&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Line failure probability bounds for power grids</title>
+      <link>http://localhost:1313/publication/nesti2017/</link>
+      <pubDate>Sat, 01 Jul 2017 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/nesti2017/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

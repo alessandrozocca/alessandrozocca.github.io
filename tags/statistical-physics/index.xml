@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Statistical Physics | Alessandro Zocca</title>
+    <link>http://localhost:1313/tags/statistical-physics/</link>
+      <atom:link href="http://localhost:1313/tags/statistical-physics/index.xml" rel="self" type="application/rss+xml" />
+    <description>Statistical Physics</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2023 Alessandro Zocca</copyright>
+    <image>
+      <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
+      <title>Statistical Physics</title>
+      <link>http://localhost:1313/tags/statistical-physics/</link>
+    </image>
+    
+    <item>
+      <title>Asymptotic behavior of interacting particle systems</title>
+      <link>http://localhost:1313/project/interacting-particle-systems/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/project/interacting-particle-systems/</guid>
+      <description>&lt;p&gt;Studying hitting and mixing times for interacting particle systems with stochastic evolutions and finite volume.&lt;/p&gt;
+&lt;p&gt;Collaborators: Simone Baldassarri, Anna Gallo, Vanessa Jacquier, Gianmarco Bet, Francesca Nardi&lt;/p&gt;
+&lt;p&gt;See below for the list of related publications and preprints.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Random-access networks</title>
+      <link>http://localhost:1313/project/wireless-networks/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/project/wireless-networks/</guid>
+      <description>&lt;p&gt;Quantifying throughput and delay performance of wireless networks protocols using Markov chains and heavy-traffic limits.&lt;/p&gt;
+&lt;p&gt;See below for the list of related publications and preprints.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

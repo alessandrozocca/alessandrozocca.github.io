@@ -2,31 +2,43 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Projects | Alessandro Zocca</title>
-    <link>https://alessandrozocca.github.io/project/</link>
-      <atom:link href="https://alessandrozocca.github.io/project/index.xml" rel="self" type="application/rss+xml" />
+    <link>http://localhost:1313/project/</link>
+      <atom:link href="http://localhost:1313/project/index.xml" rel="self" type="application/rss+xml" />
     <description>Projects</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2022 Alessandro Zocca</copyright>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2023 Alessandro Zocca</copyright>
     <image>
-      <url>https://alessandrozocca.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
+      <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
       <title>Projects</title>
-      <link>https://alessandrozocca.github.io/project/</link>
+      <link>http://localhost:1313/project/</link>
     </image>
     
     <item>
-      <title>Algorithms and optimization for power systems reliability</title>
-      <link>https://alessandrozocca.github.io/project/algorithms-and-optimization-for-power-systems-reliability/</link>
+      <title>Reinforcement learning for power systems control</title>
+      <link>http://localhost:1313/project/learning-in-power-systems/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://alessandrozocca.github.io/project/algorithms-and-optimization-for-power-systems-reliability/</guid>
+      <guid>http://localhost:1313/project/learning-in-power-systems/</guid>
+      <description>&lt;p&gt;Adaptive topology control in power systems using multi-agent reinforcement learning and spectral clustering.&lt;/p&gt;
+&lt;p&gt;Collaborators: Erica van der Sar, Sandjai Bhulai, Jan Viebahn (TenneT)&lt;/p&gt;
+&lt;p&gt;See below for the list of related publications and preprints.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Algorithms and optimization for power systems reliability</title>
+      <link>http://localhost:1313/project/algorithms-for-power-systems/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/project/algorithms-for-power-systems/</guid>
       <description>&lt;p&gt;Understanding the fundamental interplay between network topology and failure propagation in power systems using graph theory and spectral methods.&lt;/p&gt;
+&lt;p&gt;Collaborators: Linqui Guo, Chen Liang, Steven Low, Adam Wierman&lt;/p&gt;
 &lt;p&gt;See below for the list of related publications and preprints.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>MCMC methods for rare events and non-convex supports</title>
-      <link>https://alessandrozocca.github.io/project/mcmc-methods-for-rare-events-and-non-convex-supports/</link>
+      <link>http://localhost:1313/project/mcmc/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://alessandrozocca.github.io/project/mcmc-methods-for-rare-events-and-non-convex-supports/</guid>
+      <guid>http://localhost:1313/project/mcmc/</guid>
       <description>&lt;p&gt;Developing novel sampling methods, with applications to rare event sampling and stochastic optimization.&lt;/p&gt;
 &lt;p&gt;See below for the list of related publications and preprints.&lt;/p&gt;
 </description>
@@ -34,9 +46,9 @@
     
     <item>
       <title>Rare events in stochastic networks</title>
-      <link>https://alessandrozocca.github.io/project/rare-events-in-stochastic-networks/</link>
+      <link>http://localhost:1313/project/rare-events/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://alessandrozocca.github.io/project/rare-events-in-stochastic-networks/</guid>
+      <guid>http://localhost:1313/project/rare-events/</guid>
       <description>&lt;p&gt;Unveiling how correlated noise and coupled network dynamics can increase the likelihood of rare events, such as blackouts in power systems with a large renewable penetration.&lt;/p&gt;
 &lt;p&gt;See below for the list of related publications and preprints.&lt;/p&gt;
 &lt;!-- # Header one
@@ -86,19 +98,8 @@ Horizontal Rule
 
 
 
-
-
-
-
-
-
-
-
-
-&lt;figure  &gt;
-  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;ising.jpg&#34; alt=&#34;&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
-  &lt;/div&gt;&lt;/figure&gt;
+  
+  
 
 
 
@@ -110,31 +111,18 @@ Horizontal Rule
 
 
 
+&lt;figure &gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;http://localhost:1313/project/rare-events/ising_hu0b32e5d1b471a194ec29053819a9546b_96021_2000x2000_fit_q90_lanczos.jpg&#34; &gt;
+
+
+  &lt;img data-src=&#34;http://localhost:1313/project/rare-events/ising_hu0b32e5d1b471a194ec29053819a9546b_96021_2000x2000_fit_q90_lanczos.jpg&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;593&#34; height=&#34;593&#34;&gt;
+&lt;/a&gt;
 
 
 
-&lt;figure  &gt;
-  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://upload.wikimedia.org/wikipedia/commons/a/a3/81_INF_DIV_SSI.jpg&#34; alt=&#34;&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
-  &lt;/div&gt;&lt;/figure&gt;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-&lt;figure  &gt;
-  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;../img/ising.jpg&#34; alt=&#34;&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
-  &lt;/div&gt;&lt;/figure&gt;
+&lt;/figure&gt;
 
 
 
@@ -149,17 +137,80 @@ Horizontal Rule
 
 
 
-&lt;figure  &gt;
-  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
-               /project/rare-events-in-stochastic-networks/featured_hu6d978e24654c3ae7614e48cb3b780e01_782343_4c10542d393e8f4eca26cc91896a9c8d.webp 400w,
-               /project/rare-events-in-stochastic-networks/featured_hu6d978e24654c3ae7614e48cb3b780e01_782343_d71fed69dca37bb09bc22bd32ca4d849.webp 760w,
-               /project/rare-events-in-stochastic-networks/featured_hu6d978e24654c3ae7614e48cb3b780e01_782343_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
-               src=&#34;../project/rare-events-in-stochastic-networks/featured_hu6d978e24654c3ae7614e48cb3b780e01_782343_4c10542d393e8f4eca26cc91896a9c8d.webp&#34;
-               width=&#34;718&#34;
-               height=&#34;760&#34;
-               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
-  &lt;/div&gt;&lt;/figure&gt;
+
+
+&lt;figure &gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://upload.wikimedia.org/wikipedia/commons/a/a3/81_INF_DIV_SSI.jpg&#34; &gt;
+
+
+  &lt;img src=&#34;https://upload.wikimedia.org/wikipedia/commons/a/a3/81_INF_DIV_SSI.jpg&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+
+&lt;/figure&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure &gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;http://localhost:1313/img/ising.jpg&#34; &gt;
+
+
+  &lt;img src=&#34;http://localhost:1313/img/ising.jpg&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+
+&lt;/figure&gt;
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure &gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;http://localhost:1313/project/rare-events/featured_hu6d978e24654c3ae7614e48cb3b780e01_782343_2000x2000_fit_lanczos_3.png&#34; &gt;
+
+
+  &lt;img data-src=&#34;http://localhost:1313/project/rare-events/featured_hu6d978e24654c3ae7614e48cb3b780e01_782343_2000x2000_fit_lanczos_3.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;3600&#34; height=&#34;3812&#34;&gt;
+&lt;/a&gt;
+
+
+
+&lt;/figure&gt;
+
 
 Alt-H1
 ======
@@ -222,31 +273,22 @@ Task List
     </item>
     
     <item>
-      <title>Learning in power networks</title>
-      <link>https://alessandrozocca.github.io/project/learning-in-power-networks/</link>
+      <title>Asymptotic behavior of interacting particle systems</title>
+      <link>http://localhost:1313/project/interacting-particle-systems/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://alessandrozocca.github.io/project/learning-in-power-networks/</guid>
-      <description>&lt;p&gt;Spectral clustering, adaptive network topology, and safe learning for power systems applications.&lt;/p&gt;
+      <guid>http://localhost:1313/project/interacting-particle-systems/</guid>
+      <description>&lt;p&gt;Studying hitting and mixing times for interacting particle systems with stochastic evolutions and finite volume.&lt;/p&gt;
+&lt;p&gt;Collaborators: Simone Baldassarri, Anna Gallo, Vanessa Jacquier, Gianmarco Bet, Francesca Nardi&lt;/p&gt;
 &lt;p&gt;See below for the list of related publications and preprints.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Random-access networks</title>
-      <link>https://alessandrozocca.github.io/project/random-access-networks/</link>
+      <link>http://localhost:1313/project/wireless-networks/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://alessandrozocca.github.io/project/random-access-networks/</guid>
+      <guid>http://localhost:1313/project/wireless-networks/</guid>
       <description>&lt;p&gt;Quantifying throughput and delay performance of wireless networks protocols using Markov chains and heavy-traffic limits.&lt;/p&gt;
-&lt;p&gt;See below for the list of related publications and preprints.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Asymptotic behavior of interacting particle systems</title>
-      <link>https://alessandrozocca.github.io/project/asymptotic-behavior-of-interacting-particle-systems/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://alessandrozocca.github.io/project/asymptotic-behavior-of-interacting-particle-systems/</guid>
-      <description>&lt;p&gt;Studying hitting and mixing times for interacting particle systems with stochastic evolutions and finite volume.&lt;/p&gt;
 &lt;p&gt;See below for the list of related publications and preprints.&lt;/p&gt;
 </description>
     </item>

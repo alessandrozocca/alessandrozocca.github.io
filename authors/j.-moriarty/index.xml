@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>J. Moriarty | Alessandro Zocca</title>
+    <link>http://localhost:1313/authors/j.-moriarty/</link>
+      <atom:link href="http://localhost:1313/authors/j.-moriarty/index.xml" rel="self" type="application/rss+xml" />
+    <description>J. Moriarty</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2023 Alessandro Zocca</copyright><lastBuildDate>Mon, 25 Apr 2022 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
+      <title>J. Moriarty</title>
+      <link>http://localhost:1313/authors/j.-moriarty/</link>
+    </image>
+    
+    <item>
+      <title>Hopping between distant basins</title>
+      <link>http://localhost:1313/publication/goodridge2022/</link>
+      <pubDate>Mon, 25 Apr 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/goodridge2022/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A Metropolis-class sampler for targets with non-convex support</title>
+      <link>http://localhost:1313/publication/moriarty2021/</link>
+      <pubDate>Wed, 15 Sep 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/moriarty2021/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Large fluctuations in locational marginal prices</title>
+      <link>http://localhost:1313/publication/nesti2020/</link>
+      <pubDate>Wed, 26 Feb 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/nesti2020/</guid>
+      <description>&lt;p&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Frequency violations from random disturbances: an MCMC approach</title>
+      <link>http://localhost:1313/publication/moriarty2018/</link>
+      <pubDate>Mon, 17 Dec 2018 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/moriarty2018/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
