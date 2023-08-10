@@ -5,7 +5,7 @@
     <link>http://localhost:1313/</link>
       <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <description>Alessandro Zocca</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2023 Alessandro Zocca</copyright><lastBuildDate>Fri, 14 Jul 2023 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2023 Alessandro Zocca</copyright><lastBuildDate>Thu, 10 Aug 2023 00:00:00 +0000</lastBuildDate>
     <image>
       <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
       <title>Alessandro Zocca</title>
@@ -291,6 +291,14 @@ Task List
       <description>&lt;p&gt;Quantifying throughput and delay performance of wireless networks protocols using Markov chains and heavy-traffic limits.&lt;/p&gt;
 &lt;p&gt;See below for the list of related publications and preprints.&lt;/p&gt;
 </description>
+    </item>
+    
+    <item>
+      <title>Critical configurations of the hard-core model on square grid graphs</title>
+      <link>http://localhost:1313/publication/baldassarri2023/</link>
+      <pubDate>Thu, 10 Aug 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/baldassarri2023/</guid>
+      <description></description>
     </item>
     
     <item>

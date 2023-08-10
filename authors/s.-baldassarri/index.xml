@@ -5,12 +5,20 @@
     <link>http://localhost:1313/authors/s.-baldassarri/</link>
       <atom:link href="http://localhost:1313/authors/s.-baldassarri/index.xml" rel="self" type="application/rss+xml" />
     <description>S. Baldassarri</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2023 Alessandro Zocca</copyright><lastBuildDate>Wed, 03 May 2023 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2023 Alessandro Zocca</copyright><lastBuildDate>Thu, 10 Aug 2023 00:00:00 +0000</lastBuildDate>
     <image>
       <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
       <title>S. Baldassarri</title>
       <link>http://localhost:1313/authors/s.-baldassarri/</link>
     </image>
+    
+    <item>
+      <title>Critical configurations of the hard-core model on square grid graphs</title>
+      <link>http://localhost:1313/publication/baldassarri2023/</link>
+      <pubDate>Thu, 10 Aug 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/baldassarri2023/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Ising model on clustered networks: A model for opinion dynamics</title>
