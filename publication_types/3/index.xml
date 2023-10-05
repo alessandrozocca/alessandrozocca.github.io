@@ -5,12 +5,36 @@
     <link>http://localhost:1313/publication_types/3/</link>
       <atom:link href="http://localhost:1313/publication_types/3/index.xml" rel="self" type="application/rss+xml" />
     <description>3</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2023 Alessandro Zocca</copyright><lastBuildDate>Thu, 10 Aug 2023 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2023 Alessandro Zocca</copyright><lastBuildDate>Thu, 05 Oct 2023 00:00:00 +0000</lastBuildDate>
     <image>
       <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
       <title>3</title>
       <link>http://localhost:1313/publication_types/3/</link>
     </image>
+    
+    <item>
+      <title>Generating synthetic power grids using Exponential Random Graphs</title>
+      <link>http://localhost:1313/publication/giacomarra2023/</link>
+      <pubDate>Thu, 05 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/giacomarra2023/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Multi-Agent Reinforcement Learning for Power Grid Topology Optimization</title>
+      <link>http://localhost:1313/publication/vandersar2023/</link>
+      <pubDate>Wed, 04 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/vandersar2023/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Mixed-integer linear programming approaches for tree partitioning of power networks</title>
+      <link>http://localhost:1313/publication/lan2023/</link>
+      <pubDate>Wed, 13 Sep 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/lan2023/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Critical configurations of the hard-core model on square grid graphs</title>
@@ -21,42 +45,10 @@
     </item>
     
     <item>
-      <title>Generating synthetic power grids using Exponential Random Graphs</title>
-      <link>http://localhost:1313/publication/giacomarra2023/</link>
-      <pubDate>Fri, 14 Jul 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/giacomarra2023/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Uncovering Load-Altering Attacks Against $N-1$ Secure Power Grids: A Rare-Event Sampling Approach</title>
       <link>http://localhost:1313/publication/goodridge2023a/</link>
       <pubDate>Wed, 12 Jul 2023 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/publication/goodridge2023a/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Analysis of Cascading Failures Due to Dynamic Load-Altering Attacks</title>
-      <link>http://localhost:1313/publication/goodridge2023b/</link>
-      <pubDate>Sat, 10 Jun 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/goodridge2023b/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>An MILP-based approach to tree partitioning with minimal power flow disruption and generator coherency constraints</title>
-      <link>http://localhost:1313/publication/lan2021b/</link>
-      <pubDate>Sat, 02 Oct 2021 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/lan2021b/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Refining bridge-block decompositions through two-stage and recursive tree partitioning</title>
-      <link>http://localhost:1313/publication/lan2021a/</link>
-      <pubDate>Fri, 01 Oct 2021 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/lan2021a/</guid>
       <description></description>
     </item>
     
