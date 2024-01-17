@@ -5,7 +5,7 @@
     <link>http://localhost:1313/authors/</link>
       <atom:link href="http://localhost:1313/authors/index.xml" rel="self" type="application/rss+xml" />
     <description>Authors</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2023 Alessandro Zocca</copyright><lastBuildDate>Thu, 05 Oct 2023 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2024 Alessandro Zocca</copyright><lastBuildDate>Thu, 14 Dec 2023 00:00:00 +0000</lastBuildDate>
     <image>
       <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
       <title>Authors</title>

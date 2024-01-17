@@ -15,31 +15,46 @@
     <loc>http://localhost:1313/project/wireless-networks/</loc>
   </url><url>
     <loc>http://localhost:1313/authors/admin/</loc>
-    <lastmod>2023-10-05T00:00:00+00:00</lastmod>
+    <lastmod>2023-12-14T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/publication_types/3/</loc>
-    <lastmod>2023-10-05T00:00:00+00:00</lastmod>
+    <lastmod>2023-12-14T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/</loc>
-    <lastmod>2023-10-05T00:00:00+00:00</lastmod>
+    <lastmod>2023-12-14T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/authors/</loc>
-    <lastmod>2023-10-05T00:00:00+00:00</lastmod>
+    <lastmod>2023-12-14T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/authors/f.-giacomarra/</loc>
-    <lastmod>2023-10-05T00:00:00+00:00</lastmod>
+    <loc>http://localhost:1313/authors/b.-markhorst/</loc>
+    <lastmod>2023-12-14T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/authors/g.-bet/</loc>
-    <lastmod>2023-10-05T00:00:00+00:00</lastmod>
+    <loc>http://localhost:1313/authors/j.-berkhout/</loc>
+    <lastmod>2023-12-14T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/publication/giacomarra2023/</loc>
-    <lastmod>2023-10-05T00:00:00+00:00</lastmod>
+    <loc>http://localhost:1313/authors/j.-pruyn/</loc>
+    <lastmod>2023-12-14T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/publication_types/</loc>
-    <lastmod>2023-10-05T00:00:00+00:00</lastmod>
+    <lastmod>2023-12-14T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/publication/</loc>
-    <lastmod>2023-10-05T00:00:00+00:00</lastmod>
+    <lastmod>2023-12-14T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/authors/r.-van-der-mei/</loc>
+    <lastmod>2023-12-14T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/publication/markhorst2023/</loc>
+    <lastmod>2023-12-14T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/authors/f.-giacomarra/</loc>
+    <lastmod>2023-10-31T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/authors/g.-bet/</loc>
+    <lastmod>2023-10-31T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/publication/giacomarra2023/</loc>
+    <lastmod>2023-10-31T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/authors/e.-van-der-sar/</loc>
     <lastmod>2023-10-04T00:00:00+00:00</lastmod>
