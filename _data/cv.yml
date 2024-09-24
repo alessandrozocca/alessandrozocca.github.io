@@ -1,12 +1,10 @@
 - title: General Information
   type: map
   contents:
-    - name: Full Name
+    - name: Full name
       value: Alessandro Zocca
-    - name: Date of Birth
-      value: 11th November 1988
-    - name: Languages
-      value: Italian, English, Dutch
+    - name: Current position
+      value: Tenured assistant professor
 
 - title: Education
   type: time_table
@@ -15,7 +13,7 @@
       institution: Eindhoven University of Technology, NL
       year: 2015
       description: 
-        - <u>Thesis title "Spatio-temporal dynamics of random access networks: an interacting particle system approach''</u>
+        - "Thesis <a href=https://research.tue.nl/en/publications/spatio-temporal-dynamics-of-random-access-networks-an-interacting>Spatio-temporal dynamics of random access networks an interacting particle system approach</a>"
         - Supervised by Sem Borst, Johan van Leeuwaarden, and Francesca Nardi
     - title: MASt. in Mathematics (Part III)
       institution: University of Cambridge, UK
@@ -37,7 +35,8 @@
       institution: California Institute of Technology, Pasadena, US
       year: 2017-2019
       description:
-        - Supported by personal NWO Rubicon grant
+        - "Supported by personal NWO Rubicon grant ($135.000, 2 years of postdoc funding, ref. 680.50.1529) titled **Renewables and uncertainty in future power systems: Mathematical challenges and solutions**"
+        - "Affiliated postdoctoral fellow of the <a href=https://resnick.caltech.edu/>Resnick Sustainability Institute</a>"
         - Advised by Adam Wierman and Steven Low
 
     - title: Postdoctoral researcher
@@ -46,26 +45,25 @@
       description:
         - Advised by Bert Zwart
 
-- title: Honors and Awards
+- title: Honors and awards
   type: time_table
   contents:
     - year: 2015
       items:
         - Applied Probability Trust best PhD thesis award  
 
-- title: Academic Interests
+- title: Academic interests
   type: nested_list
   contents:
-    - title: Topic 1.
+    - title: applied probability
       items:
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
-      items:
-        - Description 1.
-        - Description 2.
+        - stochastic networks
+        - rare events
+    - title: network optimization
+    - title: reinforcement learning
+    - title: power grid resilience
 
-- title: Other Interests
+- title: Other interests
   type: list
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - <u>Hobbies:</u> Triathlon, climbing,
