@@ -6,6 +6,30 @@
     - name: Current position
       value: Tenured assistant professor
 
+- title: Experience
+  type: time_table
+  contents:
+    - title: Assistant Professor
+      institution: Vrije Universiteit Amsterdam, NL
+      year: 2019-present
+      description:
+        - chair of the departmental outreach committee 
+        - member of the departmental internship committee
+    - title: Postdoctoral researcher
+      institution: California Institute of Technology, Pasadena, US
+      year: 2017-2019
+      description:
+        - at the Computing and Mathematical Sciences department
+        - advised by Adam Wierman and Steven Low
+        - affiliated fellow of the <a href=https://resnick.caltech.edu/>Resnick Sustainability Institute</a>
+        - supported by personal NWO Rubicon grant
+        
+    - title: Postdoctoral researcher
+      institution: Centrum Wiskunde & Informatica, Amsterdam
+      year: 2017-2019
+      description:
+        - in the stochastic group, advised by Bert Zwart
+
 - title: Education
   type: time_table
   contents:
@@ -13,7 +37,7 @@
       institution: Eindhoven University of Technology, NL
       year: 2015
       description: 
-        - "Thesis <a href=https://research.tue.nl/en/publications/spatio-temporal-dynamics-of-random-access-networks-an-interacting>Spatio-temporal dynamics of random access networks an interacting particle system approach</a>"
+        - "Thesis <i><a href=https://research.tue.nl/en/publications/spatio-temporal-dynamics-of-random-access-networks-an-interacting>Spatio-temporal dynamics of random access networks an interacting particle system approach</a></i>"
         - Supervised by Sem Borst, Johan van Leeuwaarden, and Francesca Nardi
     - title: MASt. in Mathematics (Part III)
       institution: University of Cambridge, UK
@@ -22,48 +46,37 @@
       institution: Università degli Studi di Padova, IT
       year: 2010
 
-- title: Experience
-  type: time_table
-  contents:
-    - title: Assistant Professor
-      institution: Vrije Universiteit Amsterdam, NL
-      year: 2019-present
-      description:
-        - Chair of the departmental outreach committee 
-        - Member of the departmental internship committee
-    - title: Postdoctoral researcher
-      institution: California Institute of Technology, Pasadena, US
-      year: 2017-2019
-      description:
-        - "Supported by personal NWO Rubicon grant ($135.000, 2 years of postdoc funding, ref. 680.50.1529) titled **Renewables and uncertainty in future power systems: Mathematical challenges and solutions**"
-        - "Affiliated postdoctoral fellow of the <a href=https://resnick.caltech.edu/>Resnick Sustainability Institute</a>"
-        - Advised by Adam Wierman and Steven Low
-
-    - title: Postdoctoral researcher
-      institution: Centrum Wiskunde & Informatica, Amsterdam
-      year: 2017-2019
-      description:
-        - Advised by Bert Zwart
-
-- title: Honors and awards
+- title: Honors, awards, and grants
   type: time_table
   contents:
     - year: 2015
       items:
-        - Applied Probability Trust best PhD thesis award  
+        - <b>Applied Probability Trust award</b> for the best PhD thesis in applied probability 
+    - year: 2017
+      items:
+        - "NWO Rubicon grant (&euro;135.000, 2 years of postdoc funding, ref. 680.50.1529) for the project: <em>Renewables and uncertainty in future power systems: Mathematical challenges and solutions</em>"
 
 - title: Academic interests
   type: nested_list
   contents:
     - title: applied probability
+      items: 
+        - rare events on networks
+        - rare-event sampling methods
+        - random graph models
+        - interacting particle systmes
+    - title: network optimization and control
       items:
-        - stochastic networks
-        - rare events
-    - title: network optimization
-    - title: reinforcement learning
-    - title: power grid resilience
+        - multi-agent reinforcement learning
+        - optimal network design
+    - title: main applications
+      items:
+        - power grids reliability 
+        - power grids resilience against climate extremes
+        - electricity markets
+        - robust ship design
 
 - title: Other interests
   type: list
   contents:
-    - <u>Hobbies:</u> Triathlon, climbing,
+    - <u>Hobbies:</u> Swimming, cycling, running  - living the triathlon dream!

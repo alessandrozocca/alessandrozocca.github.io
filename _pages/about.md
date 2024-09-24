@@ -14,8 +14,8 @@ profile:
     <p>1081 HV, Amsterdam, </p>
     <p>The Netherlands</p>
 
-news: true # includes a list of news items
-selected_papers: true # includes a list of papers marked as "selected={true}"
+news: false # includes a list of news items
+selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
@@ -29,8 +29,10 @@ More broadly, I am interested in stochastic dynamics on networks, especially whe
 
 I currently (co)supervise several PhD students:
 - **Erica van der Sar** at VU (2021-present) on _“Multi-agent RL for power system topology control”_
-- **Chris Franssen** at VU (2022-present) on _"First-order methods for network optimization"_
+- **Chris Franssen** at VU (2022-present) on _"First-order methods for network connectivity optimization"_
 - **Berend Markhorst** at VU (2022-present) on _"Stochastic and robust optimization for pipe routing design"_
 - **Jobke Janssen** at CWI (2023-present) on _"Stochastic optimization of frequency reserve markets"_
 
 I am currently writing a textbook titled **Hands-on Mathematical Optimization in Python** together with K. Postek, J. Gromicho, and J. Kantor. Resources and companion code are available [here](https://mobook.github.io/MO-book/).
+
+For a list of my publications, see my [Google Scholar](https://scholar.google.com/citations?user=9B49xi0AAAAJ) or [this page](/publications/).

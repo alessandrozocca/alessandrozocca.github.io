@@ -1,7 +1,8 @@
 github_users:
   - alessandrozocca
 
-repo_description_lines_max: 2
+repo_description_lines_max: 3
 
 github_repos:
   - mobook/MO-book
+  - leonlan/tree-partitioning
