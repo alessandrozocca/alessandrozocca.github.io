@@ -16,7 +16,7 @@ profile:
 
 news: false # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
-social: true # includes social icons at the bottom of the page
+social: false # includes social icons at the bottom of the page
 ---
 
 My research is centered around the study of complex networked systems in which randomness plays a crucial role. More specifically, I study **dynamics and rare events in networks affected by uncertainty**, drawing motivation from real-world applications in power systems. My work lies mostly in the area of applied probability but has deep ramifications in areas as diverse as operations research, graph theory, and optimization.
