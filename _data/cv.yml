@@ -1,10 +1,10 @@
 - title: General Information
   type: map
   contents:
-    - name: Full name
-      value: Alessandro Zocca
-    - name: Current position
-      value: Tenured assistant professor
+    - name: <font color="#000000"> Full name</font>
+      value: <font color="#000000">Alessandro Zocca</font>
+    - name: <font color="#000000">Current position</font>
+      value: <font color="#000000">Tenured assistant professor</font>
 
 - title: Experience
   type: time_table
