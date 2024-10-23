@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Tenured assistant professor @<a href='https://vu.nl/en/about-vu/faculties/faculty-of-science/departments/mathematics'>Math Department of the Vrije Universiteit Amsterdam</a> 
+subtitle: Tenured assistant professor @<a href='https://vu.nl/en/about-vu/faculties/faculty-of-science/departments/mathematics'>Math Department of the Vrije Universiteit Amsterdam</a>
 
 profile:
   align: right
@@ -19,10 +19,12 @@ profile:
     <p>1081 HV, Amsterdam, </p>
     <p>The Netherlands</p>
 
-news: false # includes a list of news items
+news: true # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: false # includes social icons at the bottom of the page
 ---
+
+### short bio
 
 My research is centered around the study of complex networked systems in which randomness plays a crucial role. More specifically, I study **dynamics and rare events in networks affected by uncertainty**, drawing motivation from real-world applications in power systems. My work lies mostly in the area of applied probability but has deep ramifications in areas as diverse as operations research, graph theory, and optimization.
 
@@ -33,10 +35,11 @@ As the **climate crisis** exacerbates the frequency and severity of extreme weat
 More broadly, I am interested in stochastic dynamics on networks, especially when a non-trivial interplay emerges between the network structure and the system’s randomness, a setting where *applied probability, learning, and optimization* naturally meet.
 
 I currently (co)supervise several PhD students:
-- **Erica van der Sar** at VU (2021-present) on _“Multi-agent RL for power system topology control”_
-- **Chris Franssen** at VU (2022-present) on _"First-order methods for network connectivity optimization"_
-- **Berend Markhorst** at VU (2022-present) on _"Stochastic and robust optimization for pipe routing design"_
-- **Jobke Janssen** at CWI (2023-present) on _"Stochastic optimization of frequency reserve markets"_
+
+- **Erica van der Sar** at VU (2021-present) on *“Multi-agent RL for power system topology control”*
+- **Chris Franssen** at VU (2022-present) on *"First-order methods for network connectivity optimization"*
+- **Berend Markhorst** at VU (2022-present) on *"Stochastic and robust optimization for pipe routing design"*
+- **Jobke Janssen** at CWI (2023-present) on *"Stochastic optimization of frequency reserve markets"*
 
 Together with K. Postek, J. Gromicho, and J. Kantor, I wrote a textbook titled *"Hands-on Mathematical Optimization in Python"*, which will be published in late 2024 by Cambridge University Press, see [here](https://www.cambridge.org/highereducation/books/hands-on-mathematical-optimization-with-python/F15ABA8AF886E7E6F7444151F40683A1#overview). Resources and companion code are available [here](https://mobook.github.io/MO-book/).
 
