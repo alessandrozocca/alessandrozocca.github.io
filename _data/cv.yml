@@ -4,7 +4,7 @@
     - name: <font color="#000000"> Full name</font>
       value: <font color="#000000">Alessandro Zocca</font>
     - name: <font color="#000000">Current position</font>
-      value: <font color="#000000">Tenured assistant professor</font>
+      value: <font color="#000000">Tenured assistant professor (UD1)</font>
 
 - title: Experience
   type: time_table
@@ -54,10 +54,10 @@
         - <b>Applied Probability Trust award</b> for the best PhD thesis in applied probability 
     - year: 2017
       items:
-        - "NWO Rubicon grant (&euro;135.000, 2 years of postdoc funding, ref. 680.50.1529) for the project: <em>Renewables and uncertainty in future power systems: Mathematical challenges and solutions</em>"
+        - "<b>NWO Rubicon grant</b> (&euro;135.000, 2 years of postdoc funding, ref. 680.50.1529) for the project: <em>Renewables and uncertainty in future power systems: Mathematical challenges and solutions</em>"
     - year: 2024
       items:
-        - "NWO VIDI grant (&euro;850.000, 5 years of funding) for the project: <em>Power Network Optimization in the Age of Climate Extremes</em>"
+        - "<b>NWO VIDI grant</b> (&euro;850.000, 5 years of funding) for the project: <em>Power Network Optimization in the Age of Climate Extremes</em>"
 
 - title: Academic interests
   type: nested_list
