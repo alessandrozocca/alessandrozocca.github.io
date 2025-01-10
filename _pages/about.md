@@ -41,6 +41,6 @@ I currently (co)supervise several PhD students:
 - **Berend Markhorst** at VU (2022-present) on *"Stochastic and robust optimization for pipe routing design"*
 - **Jobke Janssen** at CWI (2023-present) on *"Stochastic optimization of frequency reserve markets"*
 
-Together with K. Postek, J. Gromicho, and J. Kantor, I wrote a textbook titled *"Hands-on Mathematical Optimization in Python"*, which will be published in late 2024 by Cambridge University Press, see [here](https://www.cambridge.org/highereducation/books/hands-on-mathematical-optimization-with-python/F15ABA8AF886E7E6F7444151F40683A1#overview). Resources and companion code are available [here](https://mobook.github.io/MO-book/).
+Together with K. Postek, J. Gromicho, and J. Kantor, I wrote a textbook titled ***"Hands-on Mathematical Optimization in Python"***, published in early 2025 by Cambridge University Press. The book is already available for pre-order on [this webpage](https://www.cambridge.org/us/universitypress/subjects/mathematics/optimization-or-and-risk-analysis/hands-mathematical-optimization-python?format=PB) and [Amazon](https://www.amazon.com/Hands-Mathematical-Optimization-Python-Krzysztof/dp/1009493507). Resources and companion code are available [here](https://mobook.github.io/MO-book/).
 
 For a more detailed CV, visit the [CV page](/cv/). For a list of my publications, see my [Google Scholar](https://scholar.google.com/citations?user=9B49xi0AAAAJ) or visit the [publication page](/publications/).

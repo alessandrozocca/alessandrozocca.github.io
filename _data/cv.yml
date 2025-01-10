@@ -49,16 +49,16 @@
 - title: Honors, awards, and grants
   type: time_table
   contents:
-    - year: 2015
+    - year: 2025
       items:
-        - <b>Applied Probability Trust award</b> for the best PhD thesis in applied probability 
+        - "<b>NWO VIDI grant</b> (&euro;850.000, 5 years of funding) for the project: <em>Power Network Optimization in the Age of Climate Extremes</em>"
     - year: 2017
       items:
         - "<b>NWO Rubicon grant</b> (&euro;135.000, 2 years of postdoc funding, ref. 680.50.1529) for the project: <em>Renewables and uncertainty in future power systems: Mathematical challenges and solutions</em>"
-    - year: 2024
+    - year: 2015
       items:
-        - "<b>NWO VIDI grant</b> (&euro;850.000, 5 years of funding) for the project: <em>Power Network Optimization in the Age of Climate Extremes</em>"
-
+        - <b>Applied Probability Trust award</b> for the best PhD thesis in applied probability 
+        
 - title: Academic interests
   type: nested_list
   contents:
