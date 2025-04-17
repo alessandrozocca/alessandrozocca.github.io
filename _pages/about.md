@@ -30,14 +30,13 @@ My research is centered around the study of complex networked systems in which r
 
 My long-term goal as a researcher is twofold. First, I aim to quantify and analyze the randomness emerging in these complex systems using both **rigorous mathematical tools** and **data-driven learning methods**. Second, I plan to develop adaptive algorithms and reinforcement learning control strategies to mitigate the impact of high-impact, low-probability events and enhance network robustness.
 
-As the **climate crisis** exacerbates the frequency and severity of extreme weather events, my research aims to develop a novel and rigorous mathematical understanding of **power systems' resilience** against such phenomena, which naturally exhibit pronounced spatial and temporal correlations. This is precisely the focus of my **VIDI project**, *“Power Network Optimization in the Age of Climate Extremes”*, recently funded by the Dutch Research Council (NWO).
+As the **climate crisis** exacerbates the frequency and severity of extreme weather events, my research aims to develop a novel and rigorous mathematical understanding of **power systems' resilience** against such phenomena, which naturally exhibit pronounced spatial and temporal correlations. This is precisely the focus of my **VIDI project**, *“Power Network Optimization in the Age of Climate Extremes”*, recently funded by the Dutch Research Council (NWO). I have **two open PhD positions** related to this project for which the *application deadline is May 25, 2025*; see the [open PhD position page](/openphdpositions/) for the application link and more details.
 
 More broadly, I am interested in stochastic dynamics on networks, especially when a non-trivial interplay emerges between the network structure and the system’s randomness, a setting where *applied probability, learning, and optimization* naturally meet.
 
 I currently (co)supervise several PhD students:
 
 - **Erica van der Sar** at VU (2021-present) on *“Multi-agent RL for power system topology control”*
-- **Chris Franssen** at VU (2022-present) on *"First-order methods for network connectivity optimization"*
 - **Berend Markhorst** at VU (2022-present) on *"Stochastic and robust optimization for pipe routing design"*
 - **Jobke Janssen** at CWI (2023-present) on *"Stochastic optimization of frequency reserve markets"*
 
