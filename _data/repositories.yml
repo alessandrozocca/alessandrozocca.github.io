@@ -1,8 +1,23 @@
-github_users:
-  - alessandrozocca
+github_profile: alessandrozocca
 
-repo_description_lines_max: 3
-
-github_repos:
-  - mobook/MO-book
-  - leonlan/tree-partitioning
+projects:
+  - repository: mobook/MO-book
+    title: Hands-On Mathematical Optimization with Python
+    description: Companion Jupyter notebooks for the Cambridge University Press textbook Hands-On Mathematical Optimization with Python.
+    role: Co-author and maintainer
+    status: Active companion resource
+    links:
+      - label: Project website
+        url: https://mobook.github.io/MO-book/
+      - label: Source code
+        url: https://github.com/mobook/MO-book
+  - repository: leonlan/tree-partitioning
+    title: Tree partitioning for power networks
+    description: Implementations and reproducible experiments for mixed-integer tree-partitioning algorithms for power transmission networks.
+    role: Co-author and contributor
+    status: Archived research code
+    links:
+      - label: Source code
+        url: https://github.com/leonlan/tree-partitioning
+      - label: Published paper
+        url: https://doi.org/10.1109/TCNS.2025.3538472

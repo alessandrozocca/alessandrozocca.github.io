@@ -6,14 +6,13 @@ document.addEventListener("DOMContentLoaded", function () {
     document.querySelectorAll(".bibliography, .unloaded").forEach((element) => element.classList.remove("unloaded"));
 
     // highlight-search-term
-    if (CSS.highlights) {
+    if (globalThis.CSS?.highlights) {
       const nonMatchingElements = highlightSearchTerm({ search: searchTerm, selector: ".bibliography > li" });
-      if (nonMatchingElements == null) {
-        return;
+      if (nonMatchingElements != null) {
+        nonMatchingElements.forEach((element) => {
+          element.classList.add("unloaded");
+        });
       }
-      nonMatchingElements.forEach((element) => {
-        element.classList.add("unloaded");
-      });
     } else {
       // Simply add unloaded class to all non-matching items if Browser does not support CSS highlights
       document.querySelectorAll(".bibliography > li").forEach((element, index) => {
@@ -48,6 +47,16 @@ document.addEventListener("DOMContentLoaded", function () {
         element.classList.add("unloaded");
       }
     });
+
+    const allItems = document.querySelectorAll(".bibliography > li");
+    const visibleItems = document.querySelectorAll(".bibliography > li:not(.unloaded)");
+    const status = document.getElementById("bibsearch-status");
+    const clearButton = document.getElementById("bibsearch-clear");
+    const publicationLabel = visibleItems.length === 1 ? "publication" : "publications";
+    status.textContent = searchTerm
+      ? `${visibleItems.length} ${publicationLabel} match “${searchTerm}”.`
+      : `${allItems.length} publications shown.`;
+    clearButton.hidden = searchTerm.length === 0;
   };
 
   const updateInputField = () => {
@@ -61,7 +70,15 @@ document.addEventListener("DOMContentLoaded", function () {
   document.getElementById("bibsearch").addEventListener("input", function () {
     clearTimeout(timeoutId); // Clear the previous timeout
     const searchTerm = this.value.toLowerCase();
-    timeoutId = setTimeout(filterItems(searchTerm), 300);
+    timeoutId = setTimeout(() => filterItems(searchTerm), 300);
+  });
+
+  document.getElementById("bibsearch-clear").addEventListener("click", function () {
+    const input = document.getElementById("bibsearch");
+    input.value = "";
+    history.replaceState(null, "", `${window.location.pathname}${window.location.search}`);
+    filterItems("");
+    input.focus();
   });
 
   window.addEventListener("hashchange", updateInputField); // Update the filter when the hash changes

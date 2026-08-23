@@ -8,17 +8,17 @@ middle_name:
 last_name: Zocca
 email: a.zocca@vu.nl
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  Personal webpage of Alessandro Zocca.
+  Research website of Alessandro Zocca, an applied probability researcher at Vrije Universiteit Amsterdam working on rare events, stochastic networks, power systems, optimization, and learning.
 footer_text: >
-  Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
-  Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
-keywords: jekyll, jekyll-theme, academic-website, portfolio-website # add your own keywords or leave empty
+  Powered by <a href="https://jekyllrb.com/">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
+  Hosted by <a href="https://pages.github.com/">GitHub Pages</a>.
+keywords: Alessandro Zocca, applied probability, stochastic networks, rare events, power systems, optimization, reinforcement learning
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: redmountain.png # ⚛️ the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
 url: https://alessandrozocca.github.io # the base hostname & protocol for your site
 baseurl: # the subpath of your site, e.g. /blog/. Leave blank for root
-last_updated: true # set to true if you want to display last updated in the footer
+last_updated: false # build time is not a reliable content-review date
 impressum_path: # set to path to include impressum link in the footer, use the same path as permalink in a page, helps to conform with EU GDPR
 back_to_top: true # set to false to disable the back to top button
 
@@ -47,7 +47,7 @@ rss_icon: false
 # -----------------------------------------------------------------------------
 
 navbar_fixed: true
-footer_fixed: true
+footer_fixed: false
 search_enabled: true
 socials_in_search: false
 bib_search: true
@@ -62,8 +62,8 @@ max_width: 930px
 # -----------------------------------------------------------------------------
 # Display links to the page with a preview object on social media.
 # see https://schema.org/docs/faq.html for more information
-serve_og_meta: false # Include Open Graph meta tags in the HTML head
-serve_schema_org: false # Include Schema.org in the HTML head
+serve_og_meta: true # Include Open Graph meta tags in the HTML head
+serve_schema_org: true # Include Schema.org in the HTML head
 og_image: # The site-wide (default for all links) Open Graph preview image
 
 # -----------------------------------------------------------------------------
@@ -342,8 +342,8 @@ filtered_bibtex_keywords:
   ]
 
 # Maximum number of authors to be shown for each publication (more authors are visible on click)
-max_author_limit: 3 # leave blank to always show all authors
-more_authors_animation_delay: 10 # more authors are revealed on click using animation; smaller delay means faster animation
+max_author_limit: # leave blank to always show all authors
+more_authors_animation_delay: 0 # retained for compatibility with the upstream theme
 
 # Enables publication thumbnails. If disabled, none of the publications will display thumbnails, even if specified in the bib entry.
 enable_publication_thumbnails: false
@@ -355,8 +355,8 @@ enable_publication_thumbnails: false
 # These are the defaults
 external_links:
   enabled: true
-  rel: external nofollow noopener
-  target: _blank
+  rel: external
+  target: _self
   exclude:
 
 # -----------------------------------------------------------------------------
@@ -406,7 +406,7 @@ enable_darkmode: false # enables switching between light/dark modes
 enable_navbar_social: true # enables displaying social links in the navbar on the about page
 enable_project_categories: true # enables categorization of projects into multiple categories
 enable_medium_zoom: true # enables image zoom feature (as on medium.com)
-enable_progressbar: true # enables a horizontal progress bar linked to the vertical scroll position
+enable_progressbar: false # decorative progress bars add little value on these short pages
 enable_video_embedding: false # enables video embedding for bibtex entries. If false, the button opens the video link in a new window.
 
 # -----------------------------------------------------------------------------

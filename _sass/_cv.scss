@@ -21,7 +21,7 @@ a.btncv {
   padding-bottom: 0.25rem;
   text-decoration: none;
   font-weight: 400;
-  font-size: 0.7rem;
+  font-size: 0.875rem;
   text-align: center;
   vertical-align: middle;
   text-transform: uppercase;
@@ -39,7 +39,7 @@ a.btncv:hover {
  *****************************/
 
 p.location {
-  font-size: 0.7rem;
+  font-size: 0.875rem;
   white-space: nowrap;
 }
 
@@ -66,7 +66,7 @@ table.institution {
 }
 
 td.department {
-  font-size: 0.8rem;
+  font-size: 0.875rem;
   color: var(--global-text-color);
 }
 
@@ -125,22 +125,22 @@ td.list-group-category-icon {
 }
 
 td.list-group-name {
-  font-size: 0.8rem;
+  font-size: 0.875rem;
 }
 
 td.list-group-level {
-  font-size: 0.8rem;
+  font-size: 0.875rem;
   padding-left: 0.5rem;
 }
 
 td.list-group-school {
-  font-size: 0.7rem;
+  font-size: 0.875rem;
   padding-left: 0.5rem;
   text-align: center;
 }
 
 p.list-group-time {
-  font-size: 0.7rem;
+  font-size: 0.875rem;
   padding-left: 0.5rem;
 }
 
@@ -157,6 +157,33 @@ a.anchor {
   position: relative;
   top: -50px;
   visibility: hidden;
+}
+
+.cv-download {
+  align-items: center;
+  border: 1px solid var(--global-text-color);
+  color: var(--global-text-color);
+  display: inline-flex;
+  gap: 0.4rem;
+  min-height: 44px;
+
+  &:hover {
+    border-color: var(--global-theme-color);
+    color: var(--global-theme-color);
+  }
+}
+
+.cv .card-title {
+  font-size: 1.25rem;
+  scroll-margin-top: 5rem;
+}
+
+@media (max-width: 575px) {
+  .cv-download {
+    float: none !important;
+    margin-top: 0.75rem;
+    width: 100%;
+  }
 }
 
 ul.timeline {

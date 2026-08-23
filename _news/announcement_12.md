@@ -1,8 +1,8 @@
 ---
 layout: post
-date: <font color="#000000">2026-02-09</font>
+date: 2026-02-09
 inline: true
 related_posts: false
 ---
 
-<font color="#000000"> <b>Talk at Champèry Power Conference 2026!</b> On February 9th, I gave a talk at the Champèry Power Conference 2026 titled <i>"From Static to Smart: Rethinking Grid Stability with Dynamic Reserves"</i> based on the joint work with Jöbke Janssen, Bert Zwart, and Jalal Kazempour.</font>
+<b>Talk at the Champéry Power Conference 2026!</b> On February 9, I gave a talk titled <i>"From Static to Smart: Rethinking Grid Stability with Dynamic Reserves"</i>, based on joint work with Jöbke Janssen, Bert Zwart, and Jalal Kazempour.

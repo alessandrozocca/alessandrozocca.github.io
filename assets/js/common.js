@@ -1,19 +1,26 @@
 $(document).ready(function () {
-  // add toggle functionality to abstract, award and bibtex buttons
-  $("a.abstract").click(function () {
-    $(this).parent().parent().find(".abstract.hidden").toggleClass("open");
-    $(this).parent().parent().find(".award.hidden.open").toggleClass("open");
-    $(this).parent().parent().find(".bibtex.hidden.open").toggleClass("open");
+  // Toggle publication details while keeping button state available to assistive technology.
+  $(".publications button[data-toggle-section]").click(function () {
+    const button = $(this);
+    const entry = button.closest(".row");
+    const target = document.getElementById(button.attr("data-toggle-section"));
+    const willOpen = target && !target.classList.contains("open");
+
+    entry.find("button[data-toggle-section]").attr("aria-expanded", "false");
+    entry.find(".hidden.open").removeClass("open");
+
+    if (target && willOpen) {
+      target.classList.add("open");
+      button.attr("aria-expanded", "true");
+    }
   });
-  $("a.award").click(function () {
-    $(this).parent().parent().find(".abstract.hidden.open").toggleClass("open");
-    $(this).parent().parent().find(".award.hidden").toggleClass("open");
-    $(this).parent().parent().find(".bibtex.hidden.open").toggleClass("open");
-  });
-  $("a.bibtex").click(function () {
-    $(this).parent().parent().find(".abstract.hidden.open").toggleClass("open");
-    $(this).parent().parent().find(".award.hidden.open").toggleClass("open");
-    $(this).parent().parent().find(".bibtex.hidden").toggleClass("open");
+
+  $(".publications button.more-authors").click(function () {
+    const button = $(this);
+    const expanded = button.attr("aria-expanded") === "true";
+    button.attr("aria-expanded", String(!expanded));
+    button.find(".more-authors-collapsed").prop("hidden", !expanded);
+    button.find(".more-authors-expanded").prop("hidden", expanded);
   });
   $("a").removeClass("waves-effect waves-light");
 
