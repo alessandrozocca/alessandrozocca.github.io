@@ -1,5 +1,8 @@
 ---
 layout: post
+title: "Metastable opinion dynamics preprint"
+description: "A new preprint with Simone Baldassarri and Vanessa Jacquier on an Ising model with hidden preferences and neutral agents."
+permalink: /news/announcement_11/
 date: 2026-01-09
 inline: true
 related_posts: false

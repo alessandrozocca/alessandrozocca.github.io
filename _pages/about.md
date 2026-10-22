@@ -41,7 +41,7 @@ I currently supervise and co-supervise several PhD students:
 - **David Krame Kadurha** at VU (2025-present) on *“Optimizing climate-resilient grid operations”*
 - **Erica van der Sar** at VU (2021-present) on *“Multi-agent RL for power system topology control”*
 - **Berend Markhorst** at VU (2022-present) on *"Stochastic and robust optimization for pipe routing design"*
-- **Jobke Janssen** at CWI (2023-present) on *"Stochastic optimization of frequency reserve markets"*
+- **Jöbke Janssen** at CWI (2023-present) on *"Stochastic optimization of frequency reserve markets"*
 
 Together with K. Postek, J. Gromicho, and J. Kantor, I wrote a textbook titled ***"Hands-On Mathematical Optimization with Python"***, published in early 2025 by Cambridge University Press. The book can be purchased on [the CUP website](https://www.cambridge.org/us/universitypress/subjects/mathematics/optimization-or-and-risk-analysis/hands-mathematical-optimization-python?format=PB) and many other platforms. Resources and companion code are available on the [book's companion website](https://mobook.github.io/MO-book/).
 

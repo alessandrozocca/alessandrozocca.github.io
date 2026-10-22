@@ -4,12 +4,13 @@ $(document).ready(function () {
     const button = $(this);
     const entry = button.closest(".row");
     const target = document.getElementById(button.attr("data-toggle-section"));
-    const willOpen = target && !target.classList.contains("open");
+    const willOpen = target && target.hidden;
 
     entry.find("button[data-toggle-section]").attr("aria-expanded", "false");
-    entry.find(".hidden.open").removeClass("open");
+    entry.find(".hidden").prop("hidden", true).removeClass("open");
 
     if (target && willOpen) {
+      target.hidden = false;
       target.classList.add("open");
       button.attr("aria-expanded", "true");
     }

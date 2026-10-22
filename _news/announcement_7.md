@@ -1,5 +1,8 @@
 ---
 layout: post
+title: "Tree partitioning paper accepted"
+description: "A paper with Leon Lan on mixed-integer linear programming for power-network tree partitioning was accepted by IEEE TCNS."
+permalink: /news/announcement_7/
 date: 2025-02-17
 inline: true
 related_posts: false

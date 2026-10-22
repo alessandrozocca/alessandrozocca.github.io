@@ -1,5 +1,8 @@
 ---
 layout: post
+title: "TULIP warm-start method preprint"
+description: "A new preprint on warm-starting two-stage stochastic mixed-integer programs."
+permalink: /news/announcement_6/
 date: 2024-12-13
 inline: true
 related_posts: false

@@ -1,5 +1,8 @@
 ---
 layout: post
+title: "Random walks with traversal costs"
+description: "A new preprint on weighted Markovian graphs, variance-aware first-passage analysis, and network optimization."
+permalink: /news/announcement_14/
 date: 2026-03-27
 inline: true
 related_posts: false

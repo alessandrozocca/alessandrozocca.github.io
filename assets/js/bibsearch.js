@@ -16,7 +16,7 @@ document.addEventListener("DOMContentLoaded", function () {
     } else {
       // Simply add unloaded class to all non-matching items if Browser does not support CSS highlights
       document.querySelectorAll(".bibliography > li").forEach((element, index) => {
-        const text = element.innerText.toLowerCase();
+        const text = element.textContent.toLowerCase();
         if (text.indexOf(searchTerm) == -1) {
           element.classList.add("unloaded");
         }
@@ -60,9 +60,18 @@ document.addEventListener("DOMContentLoaded", function () {
   };
 
   const updateInputField = () => {
-    const hashValue = decodeURIComponent(window.location.hash.substring(1)); // Remove the '#' character
+    let hashValue = window.location.hash.substring(1);
+    try {
+      hashValue = decodeURIComponent(hashValue);
+    } catch (error) {
+      // A malformed escape in a shared URL should not disable the filter.
+    }
+    // Keep real anchors, including the skip link, separate from legacy hash filters.
+    if (hashValue && document.getElementById(hashValue)) return;
+
+    clearTimeout(timeoutId);
     document.getElementById("bibsearch").value = hashValue;
-    filterItems(hashValue);
+    filterItems(hashValue.toLowerCase());
   };
 
   // Sensitive search. Only start searching if there's been no input for 300 ms
@@ -74,6 +83,7 @@ document.addEventListener("DOMContentLoaded", function () {
   });
 
   document.getElementById("bibsearch-clear").addEventListener("click", function () {
+    clearTimeout(timeoutId);
     const input = document.getElementById("bibsearch");
     input.value = "";
     history.replaceState(null, "", `${window.location.pathname}${window.location.search}`);
@@ -83,5 +93,6 @@ document.addEventListener("DOMContentLoaded", function () {
 
   window.addEventListener("hashchange", updateInputField); // Update the filter when the hash changes
 
-  updateInputField(); // Update filter when page loads
+  filterItems("");
+  updateInputField(); // Restore legacy filter links without consuming page anchors.
 });

@@ -149,6 +149,8 @@
     {% else %}
       {% capture entrytype %}{% endcapture %}
     {% endif %}
+    {% assign entrymonth = '' %}
+    {% assign entryyear = '' %}
     {% if entry.month %}
       {% capture entrymonth %}{{ " " }}{{ entry.month | capitalize }}{% endcapture %}
     {% endif %}
@@ -364,21 +366,21 @@
 
     {% if entry.award %}
       <!-- Hidden Award block -->
-      <div id="{{ entry.key }}-award" class="award hidden d-print-inline">
+      <div id="{{ entry.key }}-award" class="award hidden d-print-inline" hidden>
         <p>{{ entry.award | markdownify }}</p>
       </div>
     {% endif %}
 
     {% if entry.abstract %}
       <!-- Hidden abstract block -->
-      <div id="{{ entry.key }}-abstract" class="abstract hidden">
+      <div id="{{ entry.key }}-abstract" class="abstract hidden" hidden>
         <p>{{ entry.abstract }}</p>
       </div>
     {% endif %}
 
     {% if entry.bibtex_show %}
       <!-- Hidden bibtex block -->
-      <div id="{{ entry.key }}-bibtex" class="bibtex hidden">
+      <div id="{{ entry.key }}-bibtex" class="bibtex hidden" hidden>
         {% highlight bibtex %}
         {{- entry.bibtex | hideCustomBibtex -}}
         {% endhighlight %}
@@ -387,7 +389,7 @@
 
     {% if entry.video and site.enable_video_embedding %}
       <!-- Hidden video block -->
-      <div id="{{ entry.key }}-video" class="video hidden">
+      <div id="{{ entry.key }}-video" class="video hidden" hidden>
         <div style="text-align: center;">{% include video.liquid path=entry.video class="img-fluid rounded z-depth-1" controls=true %}</div>
       </div>
     {% endif %}

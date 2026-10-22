@@ -4,9 +4,13 @@ require "json"
 require "nokogiri"
 require "pathname"
 require "uri"
+require "date"
+require "yaml"
+require "bibtex"
 
 site = Pathname(ARGV.fetch(0, "_site")).expand_path
 errors = []
+source_root = Pathname(__dir__).parent
 
 expected_routes = %w[
   index.html
@@ -16,6 +20,20 @@ expected_routes = %w[
   cv/index.html
   404.html
 ]
+
+news_pages = {}
+Dir.glob(source_root.join("_news/*.md")).each do |file_name|
+  front_matter = File.read(file_name).match(/\A---\s*\n(.*?)\n---/m)
+  next unless front_matter
+
+  metadata = YAML.safe_load(front_matter[1], permitted_classes: [Date, Time])
+  permalink = metadata.fetch("permalink", "/news/#{File.basename(file_name, '.md')}/")
+  route = File.join(permalink.delete_prefix("/"), "index.html")
+  news_pages[route] = metadata
+  expected_routes << route
+end
+
+bibliography = BibTeX.open(source_root.join("_bibliography/papers.bib"))
 
 expected_routes.each do |route|
   errors << "missing public route: #{route}" unless site.join(route).file?
@@ -56,6 +74,40 @@ Dir.glob(site.join("**/*.html")).sort.each do |file_name|
   errors << "#{label}: expected one main landmark" unless document.css("main").length == 1
   errors << "#{label}: expected one h1" unless document.css("h1").length == 1
   errors << "#{label}: missing skip link" unless document.at_css('a.skip-link[href="#main-content"]')
+
+  if (news = news_pages[label])
+    title = news["title"].to_s.strip
+    errors << "#{label}: missing descriptive news title" if title.empty? || title.match?(/\Aannouncement_\d+\z/i)
+    errors << "#{label}: news heading does not match its title" unless document.at_css("h1")&.text&.strip == title
+    description = document.at_css('meta[name="description"]')&.[]("content")
+    if news["description"].to_s.empty? || description != news["description"]
+      errors << "#{label}: missing item-specific news description"
+    end
+  end
+
+  document.css(".publications button[data-toggle-section]").each do |button|
+    target_id = button["data-toggle-section"]
+    target = document.at_xpath('//*[@id=$target]', nil, { "target" => target_id })
+    unless target && target.key?("hidden") && button["aria-expanded"] == "false" && button["aria-controls"] == target_id
+      errors << "#{label}: publication disclosure #{target_id} is not initially hidden and correctly associated"
+    end
+  end
+
+  if label == "publications/index.html"
+    bibliography.entries.each_value do |entry|
+      publication = document.at_xpath('//*[@id=$key]', nil, { "key" => entry.key })
+      unless publication
+        errors << "#{label}: missing publication #{entry.key}"
+        next
+      end
+
+      expected_date = [entry[:month].to_s.capitalize, entry[:year].to_s].reject(&:empty?).join(" ")
+      rendered_date = publication.at_css(".periodical")&.text.to_s.strip.split(/,\s*/).last
+      unless rendered_date == expected_date
+        errors << "#{label}: #{entry.key} displays #{rendered_date.inspect}, expected #{expected_date.inspect}"
+      end
+    end
+  end
 
   document.css("img").each do |image|
     errors << "#{label}: image missing alt (#{image['src']})" unless image.key?("alt")

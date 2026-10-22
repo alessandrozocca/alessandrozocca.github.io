@@ -1,5 +1,8 @@
 ---
 layout: post
+title: "Dynamic frequency-reserve dimensioning preprint"
+description: "A new preprint on dynamic dimensioning of Nordic frequency containment reserves using historical grid-frequency data."
+permalink: /news/announcement_4/
 date: 2024-11-19
 inline: true
 related_posts: false

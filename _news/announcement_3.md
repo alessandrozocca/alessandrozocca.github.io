@@ -1,5 +1,8 @@
 ---
 layout: post
+title: "NWO Vidi grant for climate-resilient power grids"
+description: "NWO awarded funding for Power Network Optimization in the Age of Climate Extremes."
+permalink: /news/announcement_3/
 date: 2024-10-24
 inline: true
 related_posts: false

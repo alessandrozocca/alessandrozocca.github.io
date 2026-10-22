@@ -1,5 +1,8 @@
 ---
 layout: post
+title: "Frequency reserve research at INFORMS 2024"
+description: "A presentation in Seattle on data-driven stochastic frequency-reserve dimensioning."
+permalink: /news/announcement_2/
 date: 2024-10-22
 inline: true
 related_posts: false

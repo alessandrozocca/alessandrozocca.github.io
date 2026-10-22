@@ -1,5 +1,8 @@
 ---
 layout: post
+title: "Markov-chain connectivity optimization paper published"
+description: "Joint work with Christian Franssen and Bernd Heidergott was published in IEEE Transactions on Automatic Control."
+permalink: /news/announcement_8/
 date: 2025-08-10
 inline: true
 related_posts: false

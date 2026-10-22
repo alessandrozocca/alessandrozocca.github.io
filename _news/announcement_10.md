@@ -1,5 +1,8 @@
 ---
 layout: post
+title: "Survey on reinforcement learning for grid topology"
+description: "A survey with Erica van der Sar and Sandjai Bhulai was published in Foundations and Trends in Electric Energy Systems."
+permalink: /news/announcement_10/
 date: 2025-08-11
 inline: true
 related_posts: false

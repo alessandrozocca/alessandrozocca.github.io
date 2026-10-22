@@ -365,6 +365,10 @@ ul.task-list input[type="checkbox"] {
   }
 
   .navbar-brand.social {
+    align-items: center;
+    display: flex;
+    gap: 0.25rem;
+    margin-right: 0.5rem;
     padding-bottom: 0;
     padding-top: 0;
     font-size: 1.7rem;
@@ -989,14 +993,7 @@ footer.sticky-bottom {
 
       .hidden {
         font-size: 0.875rem;
-        max-height: 0px;
-        overflow: hidden;
         text-align: justify;
-        transition-property: 0.15s ease;
-        -moz-transition: 0.15s ease;
-        -ms-transition: 0.15s ease;
-        -o-transition: 0.15s ease;
-        transition: all 0.15s ease;
 
         p {
           line-height: 1.4em;
@@ -1008,15 +1005,6 @@ footer.sticky-bottom {
           line-height: 1.4em;
           padding: 10px;
         }
-      }
-
-      .hidden.open {
-        max-height: 100em;
-        transition-property: 0.15s ease;
-        -moz-transition: 0.15s ease;
-        -ms-transition: 0.15s ease;
-        -o-transition: 0.15s ease;
-        transition: all 0.15s ease;
       }
 
       div.abstract.hidden {
@@ -1114,19 +1102,19 @@ html.transition *:after {
 // Extra Markdown style (post Customization)
 .post {
   .post-meta {
-    color: var(--global-text-color-light);
+    color: var(--global-text-color-muted);
     font-size: 0.875rem;
     margin-bottom: 0;
   }
 
   .post-tags {
-    color: var(--global-text-color-light);
+    color: var(--global-text-color-muted);
     font-size: 0.875rem;
     padding-top: 0.25rem;
     padding-bottom: 1rem;
 
     a {
-      color: var(--global-text-color-light);
+      color: var(--global-text-color-muted);
       text-decoration: none;
 
       &:hover {

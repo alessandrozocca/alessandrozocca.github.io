@@ -1,5 +1,8 @@
 ---
 layout: post
+title: "Multiplicative path weights in networks"
+description: "A new preprint linking multiplicative path weights, Katz connectivity, and mean first-passage times."
+permalink: /news/announcement_15/
 date: 2026-10-20
 inline: true
 related_posts: false

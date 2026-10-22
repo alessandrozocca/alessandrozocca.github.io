@@ -1,5 +1,8 @@
 ---
 layout: post
+title: "Dynamic frequency-reserve dimensioning paper published"
+description: "Joint work on Nordic frequency containment reserves was published in IEEE Transactions on Power Systems."
+permalink: /news/announcement_9/
 date: 2025-10-25
 inline: true
 related_posts: false

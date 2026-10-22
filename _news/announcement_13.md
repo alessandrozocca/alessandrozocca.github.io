@@ -1,5 +1,8 @@
 ---
 layout: post
+title: "New preprints on stochastic optimization"
+description: "New preprints on stochastic Steiner tree heuristics and the LOTUS warm-start framework."
+permalink: /news/announcement_13/
 date: 2026-03-02
 inline: true
 related_posts: false
