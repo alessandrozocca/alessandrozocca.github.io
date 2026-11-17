@@ -4,7 +4,7 @@ Source for [alessandrozocca.github.io](https://alessandrozocca.github.io/), an a
 
 ## Local development
 
-Use the Ruby version declared in `.ruby-version` and Bundler. The production workflow currently builds with Ruby 3.2.2.
+Use the Ruby version declared in `.ruby-version` and Bundler. The production workflow builds with the latest Ruby 3.2 patch release.
 
 ```sh
 bundle install
